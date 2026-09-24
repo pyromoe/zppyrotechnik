@@ -1,3 +1,4 @@
+
 /* =========================================
    GRUNDLAGEN
    ========================================= */
@@ -60,10 +61,19 @@ header {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+
   font-size: 22px;
   font-weight: 900;
   letter-spacing: 1px;
   color: #ffffff;
+}
+
+.logo img {
+  height: 55px;
+  width: auto;
+  display: block;
 }
 
 .logo span {
@@ -893,8 +903,8 @@ footer a:hover {
 
 @media (max-width: 400px) {
 
-  .logo {
-    font-size: 19px;
+  .logo img {
+    height: 48px;
   }
 
   nav {
