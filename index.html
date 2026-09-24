@@ -1,42 +1,48 @@
-```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>ZP Pyrotechnik</title>
-  <meta name="description" content="ZP Pyrotechnik – Feuerwerk, Batterien, Raketen, Verbundfeuerwerk und Leuchtfeuerwerk.">
+
+  <meta
+    name="description"
+    content="ZP Pyrotechnik – Feuerwerk, Batterien, Raketen, Böller und Verbundfeuerwerk."
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- HEADER -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#" class="logo">ZP PYROTECHNIK</a>
 
-      <nav class="main-nav">
+      <a href="#" class="logo">
+        ZP PYROTECHNIK
+      </a>
+
+      <nav>
         <a href="#produkte">Produkte</a>
         <a href="#anfrage">Bestellanfrage</a>
       </nav>
+
     </div>
   </header>
 
 
-  <!-- HERO -->
   <main>
 
     <section class="hero">
-      <div class="container hero-content">
+      <div class="container">
 
-        <p class="eyebrow">ZP PYROTECHNIK</p>
+        <p class="hero-label">ZP PYROTECHNIK</p>
 
-        <h1>Feuerwerk,<br>das Eindruck macht.</h1>
+        <h1>Feuerwerk, das Eindruck macht.</h1>
 
-        <p class="hero-text">
-          Entdecke unser Sortiment an Batterien, Raketen,
-          Verbundfeuerwerk und weiteren Feuerwerksartikeln.
+        <p>
+          Feuerwerk, Batterien, Raketen, Böller und Verbundfeuerwerk.
         </p>
 
         <a href="#produkte" class="button">
@@ -47,32 +53,233 @@
     </section>
 
 
-    <!-- PRODUKTE -->
     <section id="produkte" class="products-section">
-
       <div class="container">
 
         <div class="section-heading">
-          <p class="eyebrow">SORTIMENT</p>
+          <p class="section-label">SORTIMENT</p>
           <h2>Unsere Produkte</h2>
-          <p>
-            Wähle eine Kategorie und stelle deine persönliche
-            Bestellanfrage zusammen.
-          </p>
         </div>
 
 
-        <!-- KATEGORIE FILTER -->
         <div class="filter-wrapper">
 
-          <label for="filter">Kategorie</label>
+          <label for="filter">
+            Kategorie
+          </label>
 
           <select id="filter">
-            <option value="Alle">Alle Kategorien</option>
-            <option value="Batterien">Batterien</option>
-            <option value="Bombenrohre">Bombenrohre</option>
-            <option value="Böller/Knaller">Böller / Knaller</option>
-            <option value="Raketen">Raketen</option>
-            <option value="Leuchtfeuerwerk">Leuchtfeuerwerk</option>
-            <option value="Verbundfeu
-```
+
+            <option value="all">
+              Alle Kategorien
+            </option>
+
+            <option value="Batterien">
+              Batterien
+            </option>
+
+            <option value="Bombenrohre">
+              Bombenrohre
+            </option>
+
+            <option value="Böller/Knaller">
+              Böller / Knaller
+            </option>
+
+            <option value="Raketen">
+              Raketen
+            </option>
+
+            <option value="Leuchtfeuerwerk">
+              Leuchtfeuerwerk
+            </option>
+
+            <option value="Verbundfeuerwerk">
+              Verbundfeuerwerk
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <div id="products" class="product-grid"></div>
+
+      </div>
+    </section>
+
+
+    <section id="anfrage" class="order-section">
+      <div class="container">
+
+        <div class="section-heading">
+          <p class="section-label">ANFRAGE</p>
+          <h2>Deine Auswahl</h2>
+        </div>
+
+
+        <div class="order-layout">
+
+          <div class="cart-box">
+
+            <h3>Warenkorb</h3>
+
+            <div id="cart"></div>
+
+            <div class="cart-total">
+              <span>Gesamt</span>
+              <strong id="total">0,00 €</strong>
+            </div>
+
+          </div>
+
+
+          <div class="form-box">
+
+            <h3>Bestellanfrage</h3>
+
+            <p class="form-info">
+              Deine Anfrage wird per E-Mail an ZP Pyrotechnik gesendet.
+              Es erfolgt keine Online-Zahlung.
+            </p>
+
+
+            <form id="orderForm">
+
+              <div class="form-group">
+
+                <label for="name">
+                  Name *
+                </label>
+
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Vor- und Nachname"
+                >
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="phone">
+                  Telefonnummer *
+                </label>
+
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="z. B. 0650 523 0073"
+                >
+
+              </div>
+
+
+              <div class="form-group">
+
+                <label for="note">
+                  Anmerkung
+                </label>
+
+                <textarea
+                  id="note"
+                  name="note"
+                  rows="4"
+                  placeholder="Optionale Nachricht..."
+                ></textarea>
+
+              </div>
+
+
+              <label class="checkbox-label">
+
+                <input
+                  type="checkbox"
+                  id="legal"
+                  required
+                >
+
+                <span>
+                  Ich bestätige, dass ich die gesetzlichen Voraussetzungen
+                  für den Erwerb der angefragten Produkte erfülle.
+                </span>
+
+              </label>
+
+
+              <button
+                type="submit"
+                class="button submit-button"
+              >
+                Bestellanfrage senden
+              </button>
+
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div>
+        <strong>ZP PYROTECHNIK</strong>
+        <p>
+          Moritz Pimperl<br>
+          Siebenbrunn 20<br>
+          8230 Hartberg
+        </p>
+      </div>
+
+
+      <div>
+        <p>
+          E-Mail:
+          <a href="mailto:zp.pyrotechnik@gmail.com">
+            zp.pyrotechnik@gmail.com
+          </a>
+        </p>
+
+        <p>
+          Telefon:
+          <a href="tel:+436505230073">
+            0650 523 0073
+          </a>
+        </p>
+      </div>
+
+
+      <div class="footer-links">
+
+        <a href="impressum.html">
+          Impressum
+        </a>
+
+        <a href="datenschutz.html">
+          Datenschutz
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
