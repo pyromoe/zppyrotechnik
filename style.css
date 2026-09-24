@@ -61,19 +61,10 @@ header {
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-
   font-size: 22px;
   font-weight: 900;
   letter-spacing: 1px;
   color: #ffffff;
-}
-
-.logo img {
-  height: 55px;
-  width: auto;
-  display: block;
 }
 
 .logo span {
@@ -110,6 +101,14 @@ nav a:hover {
   padding: 90px 20px 70px;
 
   text-align: center;
+}
+
+.hero-logo {
+  width: 320px;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px;
 }
 
 .hero h1 {
@@ -736,6 +735,15 @@ section h2 {
   font-weight: 400;
 }
 
+#orderForm label.checkbox-label a {
+  color: #ff7a00;
+  text-decoration: underline;
+}
+
+#orderForm label.checkbox-label a:hover {
+  color: #ff8a00;
+}
+
 
 /* =========================================
    FORMULAR ABSENDEN
@@ -840,6 +848,12 @@ footer a:hover {
     padding-bottom: 50px;
   }
 
+  .hero-logo {
+    width: 250px;
+    max-width: 85%;
+    margin-bottom: 25px;
+  }
+
   .hero p {
     font-size: 16px;
   }
@@ -903,8 +917,9 @@ footer a:hover {
 
 @media (max-width: 400px) {
 
-  .logo img {
-    height: 48px;
+  .hero-logo {
+    width: 220px;
+    max-width: 90%;
   }
 
   nav {
