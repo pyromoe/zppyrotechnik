@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZP Pyrotechnik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">ZP PYROTECHNIK</div>
+
+      <div class="nav-links">
+        <a href="#produkte">Produkte</a>
+        <a href="#anfrage">Bestellanfrage</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">ZP PYROTECHNIK</p>
+
+      <h1>Feuerwerk,<br>das Eindruck macht.</h1>
+
+      <p>
+        Entdecke unser Sortiment, prüfe die Verfügbarkeit
+        und sende uns anschließend deine Bestellanfrage.
+      </p>
+
+      <a href="#produkte" class="button">
+        Produkte ansehen
+      </a>
+    </div>
+  </header>
+
+
+  <main>
+
+    <section id="produkte" class="section">
+
+      <div class="section-title">
+        <div>
+          <p class="eyebrow">Unser Sortiment</p>
+          <h2>Produkte</h2>
+        </div>
+
+        <select id="filter">
+          <option value="Alle">Alle Kategorien</option>
+          <option value="Batterien">Batterien</option>
+          <option value="Verbundfeuerwerk">Verbundfeuerwerk</option>
+          <option value="Raketen">Raketen</option>
+          <option value="Vulkane">Vulkane</option>
+        </select>
+      </div>
+
+      <div id="products" class="product-grid"></div>
+
+    </section>
+
+
+    <section id="anfrage" class="section order-section">
+
+      <div class="order-grid">
+
+        <div>
+
+          <p class="eyebrow">Deine Auswahl</p>
+
+          <h2>Bestellanfrage</h2>
+
+          <div id="cart" class="cart">
+            <p class="empty">
+              Noch keine Produkte ausgewählt.
+            </p>
+          </div>
+
+          <div class="total">
+            <span>Gesamtsumme</span>
+            <strong id="total">0,00 €</strong>
+          </div>
+
+        </div>
+
+
+        <form id="orderForm" class="order-form">
+
+          <label>
+            Name *
+            <input
+              type="text"
+              id="name"
+              placeholder="Vor- und Nachname"
+              required
+            >
+          </label>
+
+          <label>
+            Telefon
+            <input
+              type="tel"
+              id="phone"
+              placeholder="z. B. 0664 1234567"
+            >
+          </label>
+
+          <label>
+            Nachricht
+            <textarea
+              id="note"
+              rows="4"
+              placeholder="Fragen, Wünsche, Abholtermin ..."
+            ></textarea>
+          </label>
+
+          <label class="checkbox">
+            <input
+              type="checkbox"
+              id="legal"
+              required
+            >
+
+            <span>
+              Ich bestätige, dass ich die gesetzlichen Voraussetzungen
+              für den Erwerb der angefragten Produkte erfülle.
+            </span>
+          </label>
+
+          <button type="submit" class="button">
+            Bestellanfrage per E-Mail erstellen
+          </button>
+
+          <p class="hint">
+            Es erfolgt keine Online-Zahlung. Beim Absenden wird
+            dein normales E-Mail-Programm geöffnet.
+          </p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <strong>ZP PYROTECHNIK</strong>
+
+    <span>
+      bestellung@beispiel.at · 0664 1234567
+    </span>
+
+    <span>
+      <a href="impressum.html">Impressum</a>
+      ·
+      <a href="datenschutz.html">Datenschutz</a>
+    </span>
+
+  </footer>
+
+
+  <script src="app.js"></script>
+
+</body>
+</html>
