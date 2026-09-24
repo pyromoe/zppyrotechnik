@@ -262,7 +262,7 @@ function renderProducts() {
           ${
             soldOut
               ? "Ausverkauft"
-              : "In Anfrage aufnehmen"
+              : "In den Warenkorb"
           }
         </button>
 
