@@ -203,7 +203,7 @@ function renderProducts() {
     const isBombenrohr = product.category === "Bombenrohre";
     const isVerbund = product.category === "Verbundfeuerwerk";
 
-    const soldOut = product.stock <= 0 && !isBombenrohr && !isVerbund;
+    const soldOut = product.stock <= 0 &&;
 
     let details = "";
 
