@@ -1,168 +1,78 @@
+```html
 <!DOCTYPE html>
 <html lang="de">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ZP Pyrotechnik</title>
+  <meta name="description" content="ZP Pyrotechnik – Feuerwerk, Batterien, Raketen, Verbundfeuerwerk und Leuchtfeuerwerk.">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <header class="hero">
-    <nav class="navbar">
-      <div class="logo">ZP PYROTECHNIK</div>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">ZP PYROTECHNIK</a>
 
-      <div class="nav-links">
+      <nav class="main-nav">
         <a href="#produkte">Produkte</a>
         <a href="#anfrage">Bestellanfrage</a>
-      </div>
-    </nav>
-
-    <div class="hero-content">
-      <p class="eyebrow">ZP PYROTECHNIK</p>
-
-      <h1>Feuerwerk,<br>das Eindruck macht.</h1>
-
-      <p>
-        Entdecke unser Sortiment, prüfe die Verfügbarkeit
-        und sende uns anschließend deine Bestellanfrage.
-      </p>
-
-      <a href="#produkte" class="button">
-        Produkte ansehen
-      </a>
+      </nav>
     </div>
   </header>
 
 
+  <!-- HERO -->
   <main>
 
-    <section id="produkte" class="section">
+    <section class="hero">
+      <div class="container hero-content">
 
-      <div class="section-title">
-        <div>
-          <p class="eyebrow">Unser Sortiment</p>
-          <h2>Produkte</h2>
-        </div>
+        <p class="eyebrow">ZP PYROTECHNIK</p>
 
-        <select id="filter">
-          <option value="Alle">Alle Kategorien</option>
-          <option value="Batterien">Batterien</option>
-          <option value="Verbundfeuerwerk">Verbundfeuerwerk</option>
-          <option value="Raketen">Raketen</option>
-          <option value="Vulkane">Vulkane</option>
-        </select>
+        <h1>Feuerwerk,<br>das Eindruck macht.</h1>
+
+        <p class="hero-text">
+          Entdecke unser Sortiment an Batterien, Raketen,
+          Verbundfeuerwerk und weiteren Feuerwerksartikeln.
+        </p>
+
+        <a href="#produkte" class="button">
+          Produkte ansehen
+        </a>
+
       </div>
-
-      <div id="products" class="product-grid"></div>
-
     </section>
 
 
-    <section id="anfrage" class="section order-section">
+    <!-- PRODUKTE -->
+    <section id="produkte" class="products-section">
 
-      <div class="order-grid">
+      <div class="container">
 
-        <div>
-
-          <p class="eyebrow">Deine Auswahl</p>
-
-          <h2>Bestellanfrage</h2>
-
-          <div id="cart" class="cart">
-            <p class="empty">
-              Noch keine Produkte ausgewählt.
-            </p>
-          </div>
-
-          <div class="total">
-            <span>Gesamtsumme</span>
-            <strong id="total">0,00 €</strong>
-          </div>
-
-        </div>
-
-
-        <form id="orderForm" class="order-form">
-
-          <label>
-            Name *
-            <input
-              type="text"
-              id="name"
-              placeholder="Vor- und Nachname"
-              required
-            >
-          </label>
-
-          <label>
-            Telefon
-            <input
-              type="tel"
-              id="phone"
-              placeholder="z. B. 0664 1234567"
-            >
-          </label>
-
-          <label>
-            Nachricht
-            <textarea
-              id="note"
-              rows="4"
-              placeholder="Fragen, Wünsche, Abholtermin ..."
-            ></textarea>
-          </label>
-
-          <label class="checkbox">
-            <input
-              type="checkbox"
-              id="legal"
-              required
-            >
-
-            <span>
-              Ich bestätige, dass ich die gesetzlichen Voraussetzungen
-              für den Erwerb der angefragten Produkte erfülle.
-            </span>
-          </label>
-
-          <button type="submit" class="button">
-            Bestellanfrage per E-Mail erstellen
-          </button>
-
-          <p class="hint">
-            Es erfolgt keine Online-Zahlung. Beim Absenden wird
-            dein normales E-Mail-Programm geöffnet.
+        <div class="section-heading">
+          <p class="eyebrow">SORTIMENT</p>
+          <h2>Unsere Produkte</h2>
+          <p>
+            Wähle eine Kategorie und stelle deine persönliche
+            Bestellanfrage zusammen.
           </p>
-
-        </form>
-
-      </div>
-
-    </section>
-
-  </main>
+        </div>
 
 
-  <footer>
+        <!-- KATEGORIE FILTER -->
+        <div class="filter-wrapper">
 
-    <strong>ZP PYROTECHNIK</strong>
+          <label for="filter">Kategorie</label>
 
-    <span>
-      bestellung@beispiel.at · 0664 1234567
-    </span>
-
-    <span>
-      <a href="impressum.html">Impressum</a>
-      ·
-      <a href="datenschutz.html">Datenschutz</a>
-    </span>
-
-  </footer>
-
-
-  <script src="app.js"></script>
-
-</body>
-</html>
+          <select id="filter">
+            <option value="Alle">Alle Kategorien</option>
+            <option value="Batterien">Batterien</option>
+            <option value="Bombenrohre">Bombenrohre</option>
+            <option value="Böller/Knaller">Böller / Knaller</option>
+            <option value="Raketen">Raketen</option>
+            <option value="Leuchtfeuerwerk">Leuchtfeuerwerk</option>
+            <option value="Verbundfeu
+```
