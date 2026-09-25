@@ -27,9 +27,7 @@ const products = [
   { id: "C41", name: "Harlekin", category: "Batterien", manufacturer: "Argento", shots: "13", price: 19.00, nem: "325g", stock: 14 },
   { id: "C42", name: "Terremoto 1s", category: "Batterien", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 3 },
   { id: "C43", name: "Golden Spider", category: "Batterien", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 4 },
-
-  // Ausnahme: vorher ausverkauft
-  { id: "C44", name: "Veronica", category: "Batterien", manufacturer: "Argento", shots: "13", price: 19.00, nem: "325g", stock: 32 },
+  { id: "C44", name: "Veronica (ab Oktober)", category: "Batterien", manufacturer: "Argento", shots: "13", price: 19.00, nem: "325g", stock: 32 },
 
 
   // =========================
@@ -46,7 +44,7 @@ const products = [
   { id: "B7", name: "Glamour Shots", category: "Bombenrohre", manufacturer: "Funke (Albert)", pieces: "10", price: 11.00, nem: "90g (9g/Stk)", stock: 42 },
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", manufacturer: "Funke", pieces: "10", price: 12.00, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", manufacturer: "Pyrocentury", pieces: "4", price: 10.00, nem: "70g (17,5g/Stk)", stock: 25 },
-  { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", manufacturer: "Orion", pieces: "4", price: 10.00, nem: "60,4g (15,4g/Stk)", stock: 60 },
+  { id: "B10", name: "Big Bang 15G (ab Oktober)", category: "Bombenrohre", manufacturer: "Orion", pieces: "4", price: 10.00, nem: "60,4g (15,4g/Stk)", stock: 60 },
 
 
   // =========================
@@ -81,10 +79,10 @@ const products = [
   { id: "R7", name: "Ariane 50", category: "Raketen", manufacturer: "Riakeo", pieces: "5", price: 29.00, nem: "5 x 50g", stock: 64 },
   { id: "R8", name: "No Limits", category: "Raketen", manufacturer: "Piromax", pieces: "4", price: 24.00, nem: "4 x 44g", stock: 55 },
   { id: "R9", name: "Pyro Party Family Pack", category: "Raketen", manufacturer: "Lesli", pieces: "137", price: 12.00, nem: "95g", stock: 24 },
-  { id: "R10", name: "Pfeifrakete Kal. C (3-Stufen-Cracker)", category: "Raketen", manufacturer: "Funke", pieces: "6", price: 4.00, nem: "6 x 6g", stock: 3 },
+  { id: "R10", name: "Pfeifrakete Kal. C (3-Stufen-Cracker)", category: "Raketen", manufacturer: "Funke", pieces: "6", price: 4.00, nem: "6 x 6g", stock: 0 },
   { id: "R11", name: "Mini Rockets (mit Pfiff und Knall)", category: "Raketen", manufacturer: "Panta", pieces: "50", price: 5.00, nem: "50 x 1,1g", stock: 81 },
   { id: "R12", name: "Super 6", category: "Raketen", manufacturer: "Pulver", pieces: "6", price: 19.00, nem: "6 x 20g", stock: 7 },
-  { id: "R13", name: "Salutraketen mit Pfeiffaufstieg", category: "Raketen", manufacturer: "Pulver", pieces: "-", price: 29.00, nem: "-", stock: 4 },
+  { id: "R13", name: "Salutraketen mit Pfeiffaufstieg", category: "Raketen", manufacturer: "Pulver", pieces: "6", price: 29.00, nem: "6 x 20g", stock: 4 },
   { id: "R14", name: "Ronin", category: "Raketen", manufacturer: "Piromax", pieces: "6", price: 8.00, nem: "6 x 7g", stock: 22 },
   { id: "R15", name: "Fun 4 All Pack", category: "Raketen", manufacturer: "Lesli", pieces: "122", price: 16.00, nem: "117g", stock: 26 },
   { id: "R16", name: "Silberblitz Raketen", category: "Raketen", manufacturer: "Funke", pieces: "10", price: 12.00, nem: "10 x 6g", stock: 29 },
@@ -145,8 +143,8 @@ const products = [
   { id: "V14", name: "Kiss From Hell", category: "Verbundfeuerwerk", manufacturer: "Pyro Specials", shots: "91", price: 129.00, nem: "1500g", stock: 7 },
   { id: "V15", name: "Wilk (gute Batch 2023)", category: "Verbundfeuerwerk", manufacturer: "Funke (Iskra)", shots: "99", price: 99.00, nem: "907g", stock: 2 },
   { id: "V16", name: "Boom Box XL", category: "Verbundfeuerwerk", manufacturer: "Pyro Specials", shots: "218", price: 299.00, nem: "3974g", stock: 2 },
-  { id: "V17", name: "Candy Mountain", category: "Verbundfeuerwerk", manufacturer: "Funke (Albert)", shots: "100", price: 99.00, nem: "1600g", stock: 10 },
-  { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", manufacturer: "Argento", shots: "144", price: 139.00, nem: "1987g", stock: 10 }
+  { id: "V17", name: "Candy Mountain (ab Oktober)", category: "Verbundfeuerwerk", manufacturer: "Funke (Albert)", shots: "100", price: 99.00, nem: "1600g", stock: 10 },
+  { id: "V18", name: "Coconut Grove (ab Oktober)", category: "Verbundfeuerwerk", manufacturer: "Argento", shots: "144", price: 139.00, nem: "1987g", stock: 10 }
 ];
 
 
