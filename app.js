@@ -219,19 +219,19 @@ function renderProducts() {
       details += `<span>NEM: ${product.nem}</span>`;
     }
 
-    card.innerHTML = 
+    card.innerHTML = `
       <div class="product-image">
-        <div class="product-placeholder">
-          ${product.id}
-        </div>
-      </div>
-
-      <div class="product-content">
         <img
           src="bilder/${product.id}.png"
           alt="${product.name}"
           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
         >
+        <div class="product-placeholder" style="display: none;">
+          ${product.id}
+        </div>
+      </div>
+    
+      <div class="product-content">
         <div class="product-category">
           ${product.category}
         </div>
