@@ -626,7 +626,7 @@ Telefon: ${phone}
     }
 
     message += `
-Viele Grüße
+Liebe Grüße
 ${name}
 `;
 
