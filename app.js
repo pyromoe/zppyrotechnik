@@ -173,7 +173,7 @@ function updateCartCount() {
   if (!cartCount) return;
 
   const count = cart.reduce((sum, item) => {
-    return sum + item.quantity;
+    return sum + (item.qty || 0);
   }, 0);
 
   cartCount.textContent = count;
