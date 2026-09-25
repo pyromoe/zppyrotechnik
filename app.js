@@ -164,8 +164,20 @@ if (!Array.isArray(cart)) {
 
 function saveCart() {
   localStorage.setItem("zpCart", JSON.stringify(cart));
+  updateCartCount();
 }
 
+function updateCartCount() {
+  const cartCount = document.getElementById("cart-count");
+
+  if (!cartCount) return;
+
+  const count = cart.reduce((sum, item) => {
+    return sum + item.quantity;
+  }, 0);
+
+  cartCount.textContent = count;
+}
 
 // =====================================
 // ELEMENTE
