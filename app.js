@@ -219,7 +219,7 @@ function renderProducts() {
       details += `<span>NEM: ${product.nem}</span>`;
     }
 
-    card.innerHTML = `
+    card.innerHTML = 
       <div class="product-image">
         <div class="product-placeholder">
           ${product.id}
