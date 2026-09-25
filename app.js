@@ -650,3 +650,4 @@ ${name}
 
 renderProducts();
 renderCart();
+updateCartCount();
