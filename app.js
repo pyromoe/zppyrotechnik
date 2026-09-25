@@ -227,7 +227,11 @@ function renderProducts() {
       </div>
 
       <div class="product-content">
-
+        <img
+          src="bilder/${product.id}.png"
+          alt="${product.name}"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        >
         <div class="product-category">
           ${product.category}
         </div>
