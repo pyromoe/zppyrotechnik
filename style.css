@@ -317,6 +317,15 @@ section h2 {
   justify-content: center;
 }
 
+.product-image img {
+  max-width: 140px;
+  max-height: 160px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
 .product-placeholder {
   width: 85px;
   height: 85px;
