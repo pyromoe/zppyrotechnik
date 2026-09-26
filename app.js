@@ -136,7 +136,7 @@ const products = [
   { id: "V6", name: "No Limits Gold", category: "Verbundfeuerwerk", manufacturer: "Piromax", shots: "80", price: 139.00, nem: "1600g", stock: 0 },
   { id: "V7", name: "The Neonfather", category: "Verbundfeuerwerk", manufacturer: "Funke (Albert)", shots: "103", price: 89.00, nem: "963g", stock: 1 },
   { id: "V8", name: "Pyroshow 2000 Sacramentum", category: "Verbundfeuerwerk", manufacturer: "Argento", shots: "100", price: 169.00, nem: "2000g", stock: 0 },
-  { id: "V10", name: "Aniol", category: "Verbundfeuerwerk", manufacturer: "Funke (Iskra)", shots: "103", price: 99.00, nem: "988g", stock: 0 },
+  { id: "V10", name: "Aniol", category: "Verbundfeuerwerk", manufacturer: "Funke (Iskra)", shots: "103", price: 99.00, nem: "988g", stock: 1 },
   { id: "V11", name: "Smooth Operator", category: "Verbundfeuerwerk", manufacturer: "Pyro Specials", shots: "100", price: 229.00, nem: "2000g", stock: 4 },
   { id: "V12", name: "Time to Shine", category: "Verbundfeuerwerk", manufacturer: "Pyro Specials", shots: "266", price: 279.00, nem: "3496g", stock: 4 },
   { id: "V13", name: "Okazja", category: "Verbundfeuerwerk", manufacturer: "Funke (Iskra)", shots: "128", price: 89.00, nem: "794g", stock: 4 },
