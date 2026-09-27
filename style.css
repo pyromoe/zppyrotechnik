@@ -318,8 +318,8 @@ section h2 {
 }
 
 .product-image img {
-  width: 90%;
-  height: 190px;
+  width: 85%;
+  height: 85px;
   object-fit: contain;
   display: block;
 }
