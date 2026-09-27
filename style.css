@@ -319,7 +319,7 @@ section h2 {
 
 .product-image img {
   width: 85%;
-  height: 85px;
+  height: 85%;
   object-fit: contain;
   display: block;
 }
