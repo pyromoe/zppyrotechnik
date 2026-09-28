@@ -106,7 +106,7 @@ const products = [
   { id: "V4", name: "King Of Bling", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 99.00, nem: "1258g", stock: 0 },
   { id: "V5", name: "King of the Sky", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "188", price: 299.00, nem: "3870g", stock: 0 },
   { id: "V6", name: "No Limits Gold", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", shots: "80", price: 139.00, nem: "1600g", stock: 0 },
-  { id: "V7", name: "The Neonfather", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "103", price: 89.00, nem: "963g", stock: 1 },
+  { id: "V7", name: "The Neonfather", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "103", price: 89.00, nem: "963g", stock: 0 },
   { id: "V8", name: "Pyroshow 2000 Sacramentum", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "100", price: 169.00, nem: "2000g", stock: 0 },
   { id: "V10", name: "Aniol", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "103", price: 99.00, nem: "988g", stock: 1 },
   { id: "V11", name: "Smooth Operator", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "100", price: 229.00, nem: "2000g", stock: 4 },
