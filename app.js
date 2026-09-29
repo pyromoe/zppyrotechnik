@@ -55,12 +55,12 @@ const products = [
   { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.50, nem: "-", stock: 35 },
 
   // RAKETEN
-    { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 29 },
+  { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 29 },
   { id: "R2", name: "Mach One", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: 2 },
   { id: "R3", name: "Signature Range Rocket", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, nem: "375g (75g/Stk)", stock: 33 },
   { id: "R6", name: "Baby-Raketen Titansalut", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "50", price: 7.99, nem: "25g (0,5g/Stk)", stock: 48 },
   { id: "R7", name: "Ariane 50", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "5", price: 29.00, nem: "250g (50g/Stk)", stock: 63 },
-  { id: "R8", name: "No Limits", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "4", price: 24.00, nem: "176g (44g/Stk)", stock: 55 },
+  { id: "R8", name: "No Limits", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "4", price: 23.99, nem: "176g (44g/Stk)", stock: 55 },
   { id: "R9", name: "Pyro Party Family Pack", category: "Raketen", categoryClass: "F2", manufacturer: "Lesli", pieces: "137", price: 11.99, nem: "95g", stock: 24 },
   { id: "R10", name: "Pfeifrakete Kal. C (3-Stufen-Cracker)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "6", price: 3.99, nem: "36g (6g/Stk)", stock: 0 },
   { id: "R11", name: "Mini Rockets (mit Pfiff und Knall)", category: "Raketen", categoryClass: "F2", manufacturer: "Panta", pieces: "50", price: 4.99, nem: "55g (1,1g/Stk)", stock: 81 },
