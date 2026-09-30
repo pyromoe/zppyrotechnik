@@ -48,12 +48,12 @@ const products = [
   { id: "K7", name: "Dum Bum Black Pirate", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Klasek", pieces: "100", price: 3.99, nem: "85g (0,85g/Stk)", stock: 67 },
   { id: "K8", name: "Krawum", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 4.99, nem: "30g (6g/Stk)", stock: 20 },
   { id: "K9", name: "Kubischer Kanonenschlag", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 4.99, nem: "15g (5g/Stk)", stock: 64 },
-  { id: "K10-A", name: "China Böller C (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 3.00, nem: "-", stock: 102 },
+  { id: "K10-A", name: "China Böller C (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 2.99, nem: "-", stock: 102 },
   { id: "K10-B", name: "China Böller C (Schinken)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "100", price: 49.00, nem: "-", stock: 5 },
-  { id: "K11-A", name: "China Böller D (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 3.50, nem: "-", stock: 82 },
+  { id: "K11-A", name: "China Böller D (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 3.49, nem: "-", stock: 82 },
   { id: "K11-B", name: "China Böller D (Schinken)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "80", price: 59.00, nem: "-", stock: 4 },
-  { id: "K12", name: "Super Böller I (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.00, nem: "-", stock: 46 },
-  { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.50, nem: "-", stock: 35 },
+  { id: "K12", name: "Super Böller I (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 3.99, nem: "-", stock: 46 },
+  { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.49, nem: "-", stock: 35 },
 
   // RAKETEN
   { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 29 },
