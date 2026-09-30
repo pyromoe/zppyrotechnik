@@ -34,7 +34,7 @@ const products = [
   { id: "B2", name: "DumBum Triple", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 11.99, nem: "120g (24g/Stk)", stock: 69 },
   { id: "B3", name: "Gold Grown", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Panta", pieces: "4", price: 8.99, nem: "68,8g (17,2g/Stk)", stock: 0 },
   { id: "B4", name: "XXL Thunder", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Panta", pieces: "4", price: 8.99, nem: "68,8g (17,2g/Stk)", stock: 30 },
-  { id: "B5", name: "Dum Bum 20mm", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Klasek", pieces: "10", price: 8.99, nem: "80g (8g/Stk)", stock: 141 },
+  { id: "B5", name: "Dum Bum 20mm", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Klasek", pieces: "10", price: 7.99, nem: "80g (8g/Stk)", stock: 141 },
   { id: "B6", name: "God Song", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Riakeo", pieces: "4", price: 15.99, nem: "100g (25g/Stk)", stock: 0 },
   { id: "B7", name: "Glamour Shots", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "10", price: 11.99, nem: "90g (9g/Stk)", stock: 42 },
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
