@@ -66,7 +66,7 @@ const products = [
   { id: "R10", name: "Pfeifrakete Kal. C (3-Stufen-Cracker)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "6", price: 3.99, nem: "36g (6g/Stk)", stock: 0 },
   { id: "R11", name: "Mini Rockets (mit Pfiff und Knall)", category: "Raketen", categoryClass: "F2", manufacturer: "Panta", pieces: "50", price: 4.99, nem: "55g (1,1g/Stk)", stock: 81 },
   { id: "R12", name: "Super 6", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "6", price: 19.99, nem: "120g (20g/Stk)", stock: 7 },
-  { id: "R13", name: "Salutraketen mit Pfeiffaufstieg", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "6", price: 29.99, nem: "120g (20g/Stk)", stock: 2 },
+  { id: "R13", name: "Knallraketen mit Pfeiffaufstieg", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "6", price: 29.99, nem: "120g (20g/Stk)", stock: 2 },
   { id: "R14", name: "Ronin", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "6", price: 7.99, nem: "42g (7g/Stk)", stock: 19 },
   { id: "R15", name: "Fun 4 All Pack", category: "Raketen", categoryClass: "F2", manufacturer: "Lesli", pieces: "122", price: 15.99, nem: "117g", stock: 25 },
   { id: "R16", name: "Silberblitz Raketen", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: 22 },
