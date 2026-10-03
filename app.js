@@ -7,7 +7,7 @@ const products = [
   { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 1 },
   { id: "C13", name: "Capri", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 0 },
   { id: "C14", name: "Frostbrand", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: 42 },
-  { id: "C17", name: "Firlefanz (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "135g", stock: 6 },
+  { id: "C17", name: "Firlefanz (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "135g", stock: 1 },
   { id: "C18", name: "Plasma", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: 13 },
   { id: "C19", name: "Expression", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "287g", stock: 0 },
   { id: "C20", name: "Aeon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 69 },
@@ -77,7 +77,7 @@ const products = [
   { id: "R13", name: "Knallraketen mit Pfeiffaufstieg", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "6", price: 29.99, nem: "200g (20g/Stk)", stock: 2 },
   { id: "R14", name: "Ronin", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "6", price: 7.99, nem: "42g (7g/Stk)", stock: 19 },
   { id: "R15", name: "Fun 4 All Pack", category: "Raketen", categoryClass: "F2", manufacturer: "Lesli", pieces: "122", price: 15.99, nem: "117g", stock: 25 },
-  { id: "R16", name: "Silberblitz Raketen", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: 12 },
+  { id: "R16", name: "Silberblitz Raketen", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: 9 },
   { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 34 },
 
   // LEUCHTFEUERWERK
