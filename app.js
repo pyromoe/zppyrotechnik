@@ -107,7 +107,7 @@ const products = [
   { id: "L24", name: "Sonnenvögel klein (ab Oktober)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "12", price: 5.99, nem: "24g (2g/Stk)", stock: 50 },
   { id: "L25", name: "Neon Hornissen (ab Oktober)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "4", price: 2.50, nem: "40g (10g/Stk)", stock: 370 },
   { id: "L25-B", name: "Neon Hornissen Display (ab Oktober)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "12x4", price: 24.99, nem: "480g (10g/Stk)", stock: 13 },
-  { id: "L26", name: "Meteoriten Kal. C (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 1.99, nem: "30g (2,5g/Stk)", stock: 0 },
+  { id: "L26", name: "Meteoriten Kal. C (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 1.99, nem: "30g (2,5g/Stk)", stock: -1 },
 
   // VERBUNDFEUERWERK
   { id: "V1", name: "Rebel Yell (ab Oktober)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 28 },
