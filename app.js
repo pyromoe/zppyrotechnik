@@ -1,6 +1,7 @@
+
 const products = [
   // FEUERWERKSBATTERIEN
-  { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 0 },
+  { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
   { id: "C2", name: "Wintersun", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "134g", stock: 65 },
   { id: "C6", name: "Blitz Rums 16", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 8.99, nem: "80g", stock: 49 },
   { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 1 },
@@ -10,7 +11,7 @@ const products = [
   { id: "C18", name: "Plasma", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: 13 },
   { id: "C19", name: "Expression", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "287g", stock: 0 },
   { id: "C20", name: "Aeon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 69 },
-  { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: 0 },
+  { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: -1 },
   { id: "C25", name: "Opal", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 12 },
   { id: "C28", name: "No Fear (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "24", price: 39.00, nem: "480g", stock: 2 },
   { id: "C29", name: "Red Crossette", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "208g", stock: 0 },
@@ -29,9 +30,9 @@ const products = [
   { id: "C42", name: "Terremoto 1s", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 4 },
   { id: "C44", name: "Veronica (ab Oktober)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 30 },
-  { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "325g", stock: 0 },
-  { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 31.99, nem: "497g", stock: 0 },
-  { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 39.00, nem: "497g", stock: 0 },
+  { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "325g", stock: -1 },
+  { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 31.99, nem: "497g", stock: -1 },
+  { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 39.00, nem: "497g", stock: -1 },
 
   // BOMBENROHRE
   { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 0 },
@@ -179,7 +180,8 @@ function renderProducts() {
     const card = document.createElement("div");
     card.className = "product-card";
 
-    const soldOut = product.stock <= 0;
+    const soldOut = product.stock === 0;
+    const comingSoon = product.stock === -1;
 
     let details = "";
 
@@ -233,23 +235,27 @@ function renderProducts() {
           ${product.price.toFixed(2).replace(".", ",")} €
         </div>
 
-        <div class="product-stock ${soldOut ? "empty" : ""}">
+        <div class="product-stock ${soldOut ? "empty" : ""} ${comingSoon ? "coming-soon" : ""}">
           ${
             soldOut
               ? "Ausverkauft"
-              : `Lagerstand: ${product.stock}`
+              : comingSoon
+                ? "Bald verfügbar"
+                : `Lagerstand: ${product.stock}`
           }
         </div>
 
         <button
           class="add-to-cart"
           data-id="${product.id}"
-          ${soldOut ? "disabled" : ""}
+          ${(soldOut || comingSoon) ? "disabled" : ""}
         >
           ${
             soldOut
               ? "Ausverkauft"
-              : "In den Warenkorb"
+              : comingSoon
+                ? "Bald verfügbar"
+                : "In den Warenkorb"
           }
         </button>
 
@@ -279,6 +285,11 @@ function addToCart(productId) {
   );
 
   if (!product) return;
+
+  // Produkte mit 0 oder -1 können nicht angefragt werden
+  if (product.stock <= 0) {
+    return;
+  }
 
   const existingItem = cart.find(
     item => item.id === productId
@@ -428,6 +439,11 @@ function attachCartControls() {
       );
 
       if (!item || !product) return;
+
+      // Produkte mit stock -1 oder 0 können nicht weiter erhöht werden
+      if (product.stock <= 0) {
+        return;
+      }
 
       if (
         product.stock > 0 &&
