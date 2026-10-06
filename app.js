@@ -30,8 +30,8 @@ const products = [
   { id: "C42", name: "Terremoto 1s", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 4 },
   { id: "C44", name: "Veronica (ab Oktober)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 20 },
-  { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "325g", stock: -1 },
-  { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 31.99, nem: "497g", stock: -1 },
+  { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "267g", stock: -1 },
+  { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 32.99, nem: "497g", stock: -1 },
   { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 39.00, nem: "497g", stock: -1 },
 
   // BOMBENROHRE
