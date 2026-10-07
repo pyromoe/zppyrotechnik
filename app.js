@@ -25,11 +25,11 @@ const products = [
   { id: "C37", name: "Leuchtnebel", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "25", price: 39.00, nem: "500g", stock: 14 },
   { id: "C38", name: "Smaragd", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "10", price: 11.99, nem: "138g", stock: 22 },
   { id: "C39", name: "Hacker Man", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "19", price: 29.00, nem: "380g", stock: 13 },
-  { id: "C40", name: "Asoka", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 35 },
+  { id: "C40", name: "Asoka", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 70 },
   { id: "C41", name: "Harlekin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 12 },
   { id: "C42", name: "Terremoto 1s", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 4 },
-  { id: "C44", name: "Veronica (ab Oktober)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 23 },
+  { id: "C44", name: "Veronica", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 23 },
   { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "267g", stock: -1 },
   { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 32.99, nem: "497g", stock: -1 },
   { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 39.00, nem: "497g", stock: -1 },
@@ -64,9 +64,9 @@ const products = [
   { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.49, nem: "-", stock: 32 },
 
   // RAKETEN
-  { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 28 },
+  { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 27 },
   { id: "R2", name: "Mach One", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "10", price: 28.99, nem: "200g (20g/Stk)", stock: 0 },
-  { id: "R3", name: "Signature Range Rocket", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, nem: "375g (75g/Stk)", stock: 8 },
+  { id: "R3", name: "Signature Range Rocket", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, nem: "375g (75g/Stk)", stock: 7 },
   { id: "R6", name: "Baby-Raketen Titansalut", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "50", price: 7.99, nem: "25g (0,5g/Stk)", stock: 45 },
   { id: "R7", name: "Ariane 50", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "5", price: 29.00, nem: "250g (50g/Stk)", stock: 25 },
   { id: "R8", name: "No Limits", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "4", price: 23.99, nem: "176g (44g/Stk)", stock: 21 },
@@ -104,14 +104,14 @@ const products = [
   { id: "L21", name: "Funkenregen Silber", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 4.99, nem: "90g (7,5g/Stk)", stock: 49 },
   { id: "L22", name: "Explosive Balls", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", pieces: "3", price: 2.99, nem: "26g (12g/Stk)", stock: 44 },
   { id: "L23", name: "Mosquito Cirkoblitz", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", pieces: "6", price: 1.50, nem: "10g (1,7g/Stk)", stock: 76 },
-  { id: "L24", name: "Sonnenvögel klein (ab Oktober)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "12", price: 5.99, nem: "24g (2g/Stk)", stock: 67 },
-  { id: "L25", name: "Neon Hornissen (ab Oktober)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "4", price: 2.50, nem: "40g (10g/Stk)", stock: 249 },
-  { id: "L25-B", name: "Neon Hornissen Display (ab Oktober)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "12x4", price: 24.99, nem: "480g (10g/Stk)", stock: 20 },
+  { id: "L24", name: "Sonnenvögel klein", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "12", price: 5.99, nem: "24g (2g/Stk)", stock: 67 },
+  { id: "L25", name: "Neon Hornissen", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "4", price: 2.50, nem: "40g (10g/Stk)", stock: 249 },
+  { id: "L25-B", name: "Neon Hornissen Display", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "12x4", price: 24.99, nem: "480g (10g/Stk)", stock: 20 },
   { id: "L26", name: "Meteoriten Kal. C (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 1.99, nem: "30g (2,5g/Stk)", stock: -1 },
   { id: "L26-B", name: "Meteoriten Kal. C Display (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12x12", price: 19.99, nem: "360g (2,5g/Stk)", stock: -1 },
 
   // VERBUNDFEUERWERK
-  { id: "V1", name: "Rebel Yell (ab Oktober)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 8 },
+  { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 8 },
   { id: "V2", name: "Szakal", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 79.00, nem: "907g", stock: 0 },
   { id: "V3", name: "Minerva Reconquista", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 0 },
   { id: "V4", name: "King Of Bling", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 99.00, nem: "1258g", stock: 0 },
@@ -126,8 +126,8 @@ const products = [
   { id: "V14", name: "Kiss From Hell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "91", price: 129.00, nem: "1500g", stock: 4 },
   { id: "V15", name: "Wilk (gute Batch 2023)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 99.00, nem: "907g", stock: 2 },
   { id: "V16", name: "Boom Box XL", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "218", price: 299.00, nem: "3974g", stock: 2 },
-  { id: "V17", name: "Candy Mountain (ab Oktober)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 119.00, nem: "1600g", stock: 9 },
-  { id: "V18", name: "Coconut Grove (ab Oktober)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 7 }
+  { id: "V17", name: "Candy Mountain", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 119.00, nem: "1600g", stock: 9 },
+  { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 7 }
 ];
 
 let cart = JSON.parse(localStorage.getItem("zpCart") || "[]");
