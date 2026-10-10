@@ -44,7 +44,7 @@ const products = [
   { id: "B7", name: "Glamour Shots", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "10", price: 11.99, nem: "90g (9g/Stk)", stock: 12 },
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 16 },
-  { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 42 },
+  { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 22 },
 
   // BÖLLER / KNALLER
   { id: "K1", name: "Blauer Berber", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "20", price: 5.99, nem: "30g (1,5g/Stk)", stock: 38 },
@@ -66,7 +66,7 @@ const products = [
   // RAKETEN
   { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 27 },
   { id: "R2", name: "Mach One", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "10", price: 28.99, nem: "200g (20g/Stk)", stock: 0 },
-  { id: "R3", name: "Signature Range Rocket", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, nem: "375g (75g/Stk)", stock: 7 },
+  { id: "R3", name: "Signature Range Rocket", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, nem: "375g (75g/Stk)", stock: 15 },
   { id: "R6", name: "Baby-Raketen Titansalut", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "50", price: 7.99, nem: "25g (0,5g/Stk)", stock: 45 },
   { id: "R7", name: "Ariane 50", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "5", price: 29.00, nem: "250g (50g/Stk)", stock: 25 },
   { id: "R8", name: "No Limits", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "4", price: 23.99, nem: "176g (44g/Stk)", stock: 21 },
