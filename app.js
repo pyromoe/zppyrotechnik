@@ -33,6 +33,8 @@ const products = [
   { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "267g", stock: -1 },
   { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 32.99, nem: "497g", stock: -1 },
   { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 39.00, nem: "497g", stock: -1 },
+  { id: "C48", name: "Dynamite (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "26", price: 39.00, nem: "499g", stock: -1 },
+  { id: "C48", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 34.99, nem: "480g", stock: -1 },
 
   // BOMBENROHRE
   { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 0 },
@@ -127,7 +129,8 @@ const products = [
   { id: "V15", name: "Wilk (gute Batch 2023)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 99.00, nem: "907g", stock: 2 },
   { id: "V16", name: "Boom Box XL", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "218", price: 299.00, nem: "3974g", stock: 1 },
   { id: "V17", name: "Candy Mountain", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 119.00, nem: "1600g", stock: 9 },
-  { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 7 }
+  { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 7 },
+  { id: "V19", name: "Reborn Phoenix (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "99", price: 189.00, nem: "1785g", stock: -1 },
 ];
 
 let cart = JSON.parse(localStorage.getItem("zpCart") || "[]");
