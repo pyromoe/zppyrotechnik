@@ -71,6 +71,7 @@ const products = [
   { id: "K11-B", name: "China Böller D (Schinken)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "80", price: 59.00, nem: "-", stock: 4 },
   { id: "K12", name: "Super Böller I (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 3.99, nem: "-", stock: 45 },
   { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.49, nem: "-", stock: 32 },
+  { id: "K14", name: "El Boomba (ab November)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "20", price: 4.99, nem: "60g (3g/Stk)", stock: -1 },
 
   // RAKETEN
   { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 25 },
