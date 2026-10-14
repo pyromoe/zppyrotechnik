@@ -84,11 +84,12 @@ const products = [
   { id: "R10", name: "Pfeifrakete Kal. C (3-Stufen-Cracker)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "6", price: 3.99, nem: "36g (6g/Stk)", stock: 0 },
   { id: "R11", name: "Mini Rockets (mit Pfiff und Knall)", category: "Raketen", categoryClass: "F2", manufacturer: "Panta", pieces: "50", price: 4.99, nem: "55g (1,1g/Stk)", stock: 35 },
   { id: "R12", name: "Super 6 (ABVERKAUF!)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "6", price: 19.99, nem: "120g (20g/Stk)", stock: 2 },
-  { id: "R13", name: "Knallraketen mit Pfeiffaufstieg", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "6", price: 29.99, nem: "200g (20g/Stk)", stock: 0 },
+  { id: "R13", name: "Knallraketen mit Pfeiffaufstieg (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "6", price: 29.99, nem: "200g (20g/Stk)", stock: -1 },
   { id: "R14", name: "Ronin", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "6", price: 7.99, nem: "42g (7g/Stk)", stock: 16 },
   { id: "R15", name: "Fun 4 All Pack (ABVERKAUF!)", category: "Raketen", categoryClass: "F2", manufacturer: "Lesli", pieces: "122", price: 15.99, nem: "117g", stock: 25 },
   { id: "R16", name: "Silberblitz Raketen (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: -1 },
   { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 10 },
+  { id: "R18", name: "Top 10 (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
 
   // LEUCHTFEUERWERK
   { id: "L1", name: "Super Etna", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Panta", pieces: "6", price: 5.99, nem: "61g (10,2g/Stk)", stock: 25 },
@@ -119,6 +120,7 @@ const products = [
   { id: "L25-B", name: "Neon Hornissen Display", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "12x4", price: 24.99, nem: "480g (10g/Stk)", stock: 19 },
   { id: "L26", name: "Meteoriten Kal. C (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 1.99, nem: "30g (2,5g/Stk)", stock: -1 },
   { id: "L26-B", name: "Meteoriten Kal. C Display (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12x12", price: 19.99, nem: "360g (2,5g/Stk)", stock: -1 },
+  { id: "L27", name: "Space Ship (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Pulver", pieces: "2", price: 6.99, nem: "-", stock: -1 },
 
   // VERBUNDFEUERWERK
   { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 8 },
