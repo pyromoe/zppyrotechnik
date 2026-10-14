@@ -54,6 +54,7 @@ const products = [
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 14 },
   { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 19 },
+  { id: "B11", name: "Space Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 11.99, nem: "76g (19g/Stk)", stock: -1 },
 
   // BÖLLER / KNALLER
   { id: "K1", name: "Blauer Berber", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "20", price: 5.99, nem: "30g (1,5g/Stk)", stock: 35 },
