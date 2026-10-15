@@ -13,7 +13,7 @@ const products = [
   { id: "C20", name: "Aeon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 58 },
   { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: -1 },
   { id: "C25", name: "Opal", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 11 },
-  { id: "C28", name: "No Fear (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "24", price: 39.00, nem: "480g", stock: 2 },
+  { id: "C28", name: "No Fear", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "24", price: 39.00, nem: "480g", stock: 0 },
   { id: "C29", name: "Red Crossette", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "208g", stock: 0 },
   { id: "C30", name: "Hysteria", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "287g", stock: 0 },
   { id: "C31", name: "Hustler", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "25", price: 39.00, nem: "500g", stock: 7 },
