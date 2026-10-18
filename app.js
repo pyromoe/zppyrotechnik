@@ -39,7 +39,7 @@ const products = [
   { id: "C51", name: "Wirbelwind (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
   { id: "C52", name: "Goldweide (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: -1 },
   { id: "C53", name: "Gold Cracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
-  { id: "C54", name: "Mini Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: -1 },
+  { id: "C54", name: "Mini Blitzeria", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 2 },
   { id: "C55", name: "Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: -1 },
   { id: "C56", name: "Polarstern (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
 
@@ -112,7 +112,7 @@ const products = [
   { id: "L18-B", name: "Majestic Sparks 2 (ABVERKAUF!)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Riakeo", pieces: "1", price: 13.99, nem: "250g", stock: 12 },
   { id: "L19-A", name: "Vulkane (Gold-Silver)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Bugano", pieces: "1", price: 13.99, nem: "250g", stock: 22 },
   { id: "L19-B", name: "Vulkane (Color Stars)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Bugano", pieces: "1", price: 13.99, nem: "250g", stock: 11 },
-  { id: "L20", name: "Nachtfalter", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 3.99, nem: "10g (1g/Stk)", stock: 0 },
+  { id: "L20", name: "Nachtfalter", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 3.99, nem: "10g (1g/Stk)", stock: 1 },
   { id: "L21", name: "Funkenregen Silber", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 4.99, nem: "90g (7,5g/Stk)", stock: 47 },
   { id: "L22", name: "Explosive Balls", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", pieces: "3", price: 2.99, nem: "26g (12g/Stk)", stock: 44 },
   { id: "L23", name: "Mosquito Cirkoblitz", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", pieces: "6", price: 1.50, nem: "10g (1,7g/Stk)", stock: 72 },
