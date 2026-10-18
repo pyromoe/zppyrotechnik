@@ -34,7 +34,7 @@ const products = [
   { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 32.99, nem: "497g", stock: -1 },
   { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 39.00, nem: "497g", stock: -1 },
   { id: "C48", name: "Dynamite (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "26", price: 39.00, nem: "499g", stock: -1 },
-  { id: "C49", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 34.99, nem: "480g", stock: -1 },
+  { id: "C49", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 35.00, nem: "480g", stock: -1 },
   { id: "C50", name: "Kirschblüten (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: -1 },
   { id: "C51", name: "Wirbelwind (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
   { id: "C52", name: "Goldweide (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: -1 },
