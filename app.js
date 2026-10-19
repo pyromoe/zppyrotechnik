@@ -42,6 +42,7 @@ const products = [
   { id: "C54", name: "Mini Blitzeria", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 2 },
   { id: "C55", name: "Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: -1 },
   { id: "C56", name: "Polarstern (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
+  { id: "C57", name: "Furia (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "25", price: 29.00, nem: "400g", stock: -1 },
 
   // BOMBENROHRE
   { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 0 },
