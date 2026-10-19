@@ -177,6 +177,7 @@ const productsContainer = document.getElementById("products");
 const cartContainer = document.getElementById("cart");
 const totalElement = document.getElementById("total");
 const filterElement = document.getElementById("filter");
+const stockFilterElement = document.getElementById("inStockOnly");
 const orderForm = document.getElementById("orderForm");
 
 function renderProducts() {
@@ -186,14 +187,31 @@ function renderProducts() {
     ? filterElement.value
     : "all";
 
+  const onlyInStock = stockFilterElement
+    ? stockFilterElement.checked
+    : false;
+
   const filteredProducts = products.filter(product => {
-    return (
+    const matchesCategory =
       selectedCategory === "all" ||
-      product.category === selectedCategory
-    );
+      product.category === selectedCategory;
+
+    const matchesStock =
+      !onlyInStock || product.stock > 0;
+
+    return matchesCategory && matchesStock;
   });
 
   productsContainer.innerHTML = "";
+
+  if (filteredProducts.length === 0) {
+    productsContainer.innerHTML = `
+      <p class="no-products">
+        Keine lagernden Artikel in dieser Kategorie.
+      </p>
+    `;
+    return;
+  }
 
   filteredProducts.forEach(product => {
     const card = document.createElement("div");
@@ -522,6 +540,12 @@ function attachCartControls() {
 
 if (filterElement) {
   filterElement.addEventListener("change", () => {
+    renderProducts();
+  });
+}
+
+if (stockFilterElement) {
+  stockFilterElement.addEventListener("change", () => {
     renderProducts();
   });
 }
