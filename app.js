@@ -39,7 +39,7 @@ const products = [
   { id: "C51", name: "Wirbelwind (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
   { id: "C52", name: "Goldweide (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: -1 },
   { id: "C53", name: "Gold Cracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
-  { id: "C54", name: "Mini Blitzeria", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 2 },
+  { id: "C54", name: "Mini Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: -1 },
   { id: "C55", name: "Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: -1 },
   { id: "C56", name: "Polarstern (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
   { id: "C57", name: "Furia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "25", price: 29.00, nem: "400g", stock: -1 },
