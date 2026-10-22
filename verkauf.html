@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Feuerwerk-Verkauf 19.–30.12. – ZP Pyrotechnik</title>
+
+  <meta
+    name="description"
+    content="Großer Feuerwerk-Verkauf von ZP Pyrotechnik vom 19. bis 30. Dezember 2026 beim Kreisverkehr Kemeten-Steinbrückl. Öffnungszeiten, Anfahrt und Abholung."
+  >
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* ===== Seitenspezifisch: Verkaufsstand ===== */
+
+    .stand-section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 20px 10px;
+    }
+
+    .stand-facts {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 0 0 28px;
+    }
+
+    .fact {
+      padding: 20px 22px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+    }
+
+    .fact-label {
+      margin: 0 0 4px;
+      color: var(--orange-2);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+    }
+
+    .fact-value {
+      margin: 0;
+      font-family: var(--head);
+      font-size: 28px;
+      line-height: 1.1;
+      letter-spacing: 0.5px;
+    }
+
+    .fact-sub {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .stand-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 22px;
+      align-items: start;
+    }
+
+    .stand-card {
+      padding: 26px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    .stand-card + .stand-card {
+      margin-top: 22px;
+    }
+
+    .stand-card h2 {
+      margin: 0 0 16px;
+      font-size: 30px;
+    }
+
+    .stand-card p {
+      color: #cfcfcf;
+    }
+
+    /* Kalender */
+
+    .days {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin: 0 0 16px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .day {
+      padding: 10px 6px;
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid rgba(255, 122, 0, 0.45);
+      background: rgba(255, 122, 0, 0.12);
+    }
+
+    .day .wd {
+      display: block;
+      color: var(--orange-2);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .day .dt {
+      display: block;
+      font-family: var(--head);
+      font-size: 26px;
+      line-height: 1.1;
+    }
+
+    .day .st {
+      display: block;
+      color: #dddddd;
+      font-size: 11px;
+    }
+
+    .day.closed {
+      border-color: var(--line);
+      background: #121212;
+      opacity: 0.55;
+    }
+
+    .day.closed .wd {
+      color: #888888;
+    }
+
+    .day.closed .dt {
+      color: #888888;
+      text-decoration: line-through;
+    }
+
+    .legend {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* Karte */
+
+    .map {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 4px 0 16px;
+      border-radius: 14px;
+      background: #121212;
+    }
+
+    .map-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .map-actions .hero-button {
+      min-height: 48px;
+      padding: 11px 20px;
+      font-size: 15px;
+    }
+
+    /* Schritte */
+
+    .steps {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      counter-reset: step;
+    }
+
+    .steps li {
+      position: relative;
+      padding: 0 0 18px 58px;
+      color: #cfcfcf;
+    }
+
+    .steps li:last-child {
+      padding-bottom: 0;
+    }
+
+    .steps li::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 0;
+      top: -2px;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--orange-grad);
+      color: #ffffff;
+      font-family: var(--head);
+      font-size: 22px;
+    }
+
+    .steps strong {
+      display: block;
+      color: #ffffff;
+      font-size: 16px;
+    }
+
+    .steps a,
+    .stand-card p a {
+      color: var(--orange);
+      text-decoration: underline;
+    }
+
+    .note {
+      margin: 18px 0 0;
+      padding: 14px 16px;
+      border-radius: 12px;
+      background: rgba(255, 122, 0, 0.08);
+      border: 1px solid rgba(255, 122, 0, 0.25);
+      color: #d6d6d6;
+      font-size: 14px;
+    }
+
+    .note strong {
+      color: #ffffff;
+    }
+
+    .stand-cta {
+      margin: 36px 0 0;
+      text-align: center;
+    }
+
+    @media (max-width: 860px) {
+      .stand-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stand-grid > div + div {
+        margin-top: 0;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .stand-facts {
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .stand-card {
+        padding: 20px;
+      }
+
+      .days {
+        gap: 6px;
+      }
+
+      .day .dt {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="logo">
+        ZP <span>PYROTECHNIK</span>
+      </a>
+
+      <nav>
+        <a href="index.html#produkte">Produkte</a>
+        <a href="index.html#anfrage" class="nav-cart">Warenkorb</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <section class="hero hero-small">
+      <div class="container">
+
+        <p class="hero-label">VERKAUFSSTAND 2026</p>
+
+        <h1>Großer Feuerwerk-Verkauf</h1>
+
+        <p>
+          Vom 19. bis 30. Dezember beim Kreisverkehr Kemeten-Steinbrückl –
+          direkt einkaufen oder deine Online-Bestellung abholen.
+        </p>
+
+      </div>
+    </section>
+
+
+    <section class="stand-section">
+
+      <!-- Auf einen Blick -->
+      <div class="stand-facts">
+
+        <div class="fact">
+          <p class="fact-label">Wann</p>
+          <p class="fact-value">19. – 30.12.2026</p>
+          <p class="fact-sub">ausgenommen Sonn- und Feiertage</p>
+        </div>
+
+        <div class="fact">
+          <p class="fact-label">Uhrzeit</p>
+          <p class="fact-value">9 – 18 Uhr</p>
+          <p class="fact-sub">an allen Öffnungstagen</p>
+        </div>
+
+        <div class="fact">
+          <p class="fact-label">Wo</p>
+          <p class="fact-value">Kreisverkehr Kemeten-Steinbrückl</p>
+          <p class="fact-sub">Anfahrt siehe Skizze</p>
+        </div>
+
+      </div>
+
+
+      <div class="stand-grid">
+
+        <!-- Linke Spalte -->
+        <div>
+
+          <div class="stand-card">
+
+            <h2>Öffnungszeiten</h2>
+
+            <ul class="days">
+              <li class="day"><span class="wd">SA</span><span class="dt">19.12.</span><span class="st">9 – 18 Uhr</span></li>
+              <li class="day closed"><span class="wd">SO</span><span class="dt">20.12.</span><span class="st">geschlossen</span></li>
+              <li class="day"><span class="wd">MO</span><span class="dt">21.12.</span><span class="st">9 – 18 Uhr</span></li>
+              <li class="day"><span class="wd">DI</span><span class="dt">22.12.</span><span class="st">9 – 18 Uhr</span></li>
+              <li class="day"><span class="wd">MI</span><span class="dt">23.12.</span><span class="st">9 – 18 Uhr</span></li>
+              <li class="day"><span class="wd">DO</span><span class="dt">24.12.</span><span class="st">9 – 18 Uhr</span></li>
+              <li class="day closed"><span class="wd">FR</span><span class="dt">25.12.</span><span class="st">Christtag</span></li>
+              <li class="day closed"><span class="wd">SA</span><span class="dt">26.12.</span><span class="st">Stefanitag</span></li>
+              <li class="day closed"><span class="wd">SO</span><span class="dt">27.12.</span><span class="st">geschlossen</span></li>
+              <li class="day"><span class="wd">MO</span><span class="dt">28.12.</span><span class="st">9 – 18 Uhr</span></li>
+              <li class="day"><span class="wd">DI</span><span class="dt">29.12.</span><span class="st">9 – 18 Uhr</span></li>
+              <li class="day"><span class="wd">MI</span><span class="dt">30.12.</span><span class="st">9 – 18 Uhr</span></li>
+            </ul>
+
+            <p class="legend">
+              Geöffnet von 19. bis 30. Dezember 2026, jeweils 9 bis 18 Uhr –
+              ausgenommen Sonn- und Feiertage.
+            </p>
+
+          </div>
+
+
+          <div class="stand-card">
+
+            <h2>So funktioniert’s</h2>
+
+            <ol class="steps">
+              <li>
+                <strong>Bestellen</strong>
+                Wähle deine Produkte im <a href="index.html#produkte">Online-Shop</a> und sende die
+                Bestellanfrage ab – oder schreib eine E-Mail an
+                <a href="mailto:zp.pyrotechnik@gmail.com">zp.pyrotechnik@gmail.com</a>
+                (Betreff: Bestellung – Vorname Nachname, Inhalt: Artikelname – Artikelnummer – Anzahl).
+              </li>
+              <li>
+                <strong>Bezahlen</strong>
+                Du erhältst eine Bestellnummer und eine Rechnung von uns. Überweise den Betrag
+                und gib die Bestellnummer als Zahlungsreferenz an.
+              </li>
+              <li>
+                <strong>Abholen</strong>
+                Hol deine Bestellung zu den Öffnungszeiten an unserem Stand beim
+                Kreisverkehr Kemeten-Steinbrückl ab.
+              </li>
+            </ol>
+
+            <p class="note">
+              <strong>Lieber direkt vor Ort kaufen?</strong> Kein Problem – komm einfach zu den
+              Öffnungszeiten vorbei. Online vorbestellt zahlst du allerdings weniger: Die
+              „statt“-Preise im Katalog sind unsere Preise am Stand, solange der Vorrat reicht.
+            </p>
+
+            <p class="note">
+              <strong>Bitte Ausweis mitnehmen!</strong> Bei der Übergabe erfolgt eine
+              Ausweiskontrolle. Kategorie F2 ab 16 Jahren, Kategorie F1 ab 12 Jahren.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- Rechte Spalte -->
+        <div>
+
+          <div class="stand-card">
+
+            <h2>Anfahrt</h2>
+
+            <!-- Vereinfachte Skizze -->
+            <svg class="map" viewBox="0 0 430 320" role="img" aria-label="Skizze: Verkaufsstand beim Kreisverkehr Kemeten-Steinbrückl, an der Ausfahrt Richtung Südosten bei der avanti-Tankstelle">
+              <defs>
+                <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#ff7a00" stop-opacity="0.35"/>
+                  <stop offset="100%" stop-color="#ff7a00" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+
+              <!-- Straßen -->
+              <g fill="none" stroke="#4e4e4e" stroke-width="20" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="158,82 135,55 105,0"/>
+                <polyline points="262,111 320,95 430,50"/>
+                <polyline points="131,195 80,235 0,275"/>
+                <polyline points="232,205 275,245 325,262 430,262"/>
+              </g>
+
+              <!-- Kreisverkehr -->
+              <circle cx="195" cy="150" r="78" fill="none" stroke="#4e4e4e" stroke-width="20"/>
+              <circle cx="195" cy="150" r="62" fill="#222222"/>
+              <text x="195" y="154" text-anchor="middle" fill="#888" font-size="11" font-family="Arial, sans-serif">Kreisverkehr</text>
+
+              <!-- Weg zum Stand -->
+              <polyline points="232,205 275,245 325,262 430,262" fill="none" stroke="#ff7a00" stroke-width="3.5" stroke-dasharray="10 9"/>
+
+              <!-- Stand -->
+              <circle cx="310" cy="218" r="46" fill="url(#glow)"/>
+              <path d="M310 246 C296 228 288 216 288 204 a22 22 0 0 1 44 0 c0 12 -8 24 -22 42z" fill="#ff7a00"/>
+              <circle cx="310" cy="204" r="8" fill="#ffffff"/>
+              <text x="338" y="212" fill="#ff7a00" font-size="22" font-family="Anton, Impact, sans-serif">HIER</text>
+
+              <!-- Tankstellen -->
+              <g font-family="Arial, sans-serif" font-weight="700">
+                <rect x="22" y="78" width="46" height="24" rx="5" fill="#ffd200"/>
+                <text x="45" y="95" text-anchor="middle" fill="#1a1a1a" font-size="13">eni</text>
+                <rect x="318" y="282" width="70" height="24" rx="5" fill="#ffe600"/>
+                <text x="353" y="299" text-anchor="middle" fill="#1a1a1a" font-size="13" font-style="italic">avanti</text>
+              </g>
+
+              <!-- Beschriftung -->
+              <g fill="#cccccc" font-size="13" font-weight="700" font-family="Arial, sans-serif">
+                <text x="122" y="18">↑ Richtung A2</text>
+                <text x="420" y="78" text-anchor="end">Oberwart →</text>
+                <text x="6" y="302">← Kemeten</text>
+              </g>
+            </svg>
+
+            <p>
+              Unser Stand befindet sich beim <strong>Kreisverkehr Kemeten-Steinbrückl</strong>.
+              Bei Fragen zur Anfahrt ruf uns gerne an:
+              <a href="tel:+436505230073">0650 523 0073</a>.
+            </p>
+
+            <div class="map-actions">
+              <a class="hero-button" href="https://www.google.com/maps/search/?api=1&amp;query=Kreisverkehr+Kemeten+Steinbr%C3%BCckl" target="_blank" rel="noopener">
+                In Google Maps öffnen
+              </a>
+              <a class="hero-button secondary" href="tel:+436505230073">
+                Anrufen
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="stand-cta">
+        <a href="index.html#produkte" class="hero-button">
+          JETZT ONLINE VORBESTELLEN
+        </a>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div>
+        <strong>ZP PYROTECHNIK</strong>
+        <p>
+          Moritz Pimperl<br>
+          Siebenbrunn 20<br>
+          8230 Hartberg
+        </p>
+      </div>
+
+
+      <div>
+        <p>
+          E-Mail:
+          <a href="mailto:zp.pyrotechnik@gmail.com">
+            zp.pyrotechnik@gmail.com
+          </a>
+        </p>
+
+        <p>
+          Telefon:
+          <a href="tel:+436505230073">
+            0650 523 0073
+          </a>
+        </p>
+      </div>
+
+
+      <div class="footer-links">
+
+        <a href="verkauf.html">
+          Verkaufsstand
+        </a>
+
+        <a href="impressum.html">
+          Impressum
+        </a>
+
+        <a href="datenschutz.html">
+          Datenschutz
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
