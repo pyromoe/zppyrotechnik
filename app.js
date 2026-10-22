@@ -146,6 +146,39 @@ const products = [
   { id: "V20", name: "El Toro (EXKLUSIV AM STAND)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
 ];
 
+// Hinweise in Klammern (z. B. "(ab November)") werden als Badge angezeigt
+const BADGE_RULES = [
+  { match: /ab november/i, label: "Ab November", cls: "badge-soon" },
+  { match: /lieferdatum offen/i, label: "Lieferdatum offen", cls: "badge-soon" },
+  { match: /abverkauf/i, label: "Abverkauf", cls: "badge-sale" },
+  { match: /exklusiv am stand/i, label: "Exklusiv am Stand", cls: "badge-exclusive" },
+  { match: /ab 200/i, label: null, cls: "badge-info" }
+];
+
+function splitName(fullName) {
+  const badges = [];
+
+  const name = fullName.replace(/\s*\(([^)]*)\)/g, (whole, inner) => {
+    const rule = BADGE_RULES.find(r => r.match.test(inner));
+    if (!rule) return whole;
+    badges.push({ label: rule.label || inner, cls: rule.cls });
+    return "";
+  }).trim();
+
+  return { name, badges };
+}
+
+function formatPrice(value) {
+  return value.toFixed(2).replace(".", ",") + " €";
+}
+
+function stockInfo(product) {
+  if (product.stock === 0) return { text: "Ausverkauft", cls: "is-out" };
+  if (product.stock === -1) return { text: "Bald verfügbar", cls: "is-soon" };
+  if (product.stock <= 5) return { text: `Nur noch ${product.stock} Stück`, cls: "is-low" };
+  return { text: "Verfügbar", cls: "is-ok" };
+}
+
 let cart = JSON.parse(localStorage.getItem("zpCart") || "[]");
 
 if (!Array.isArray(cart)) {
@@ -169,6 +202,34 @@ function updateCartCount() {
   );
 
   cartCount.textContent = count;
+
+  updateCartBar(count);
+}
+
+function updateCartBar(count) {
+  const bar = document.getElementById("cart-bar");
+  if (!bar) return;
+
+  const total = cart.reduce((sum, item) => {
+    const product = products.find(p => p.id === item.id);
+    return product ? sum + product.price * (Number(item.quantity) || 0) : sum;
+  }, 0);
+
+  document.getElementById("cart-bar-count").textContent =
+    `${count} ${count === 1 ? "Artikel" : "Artikel"}`;
+  document.getElementById("cart-bar-total").textContent = formatPrice(total);
+
+  bar.hidden = count === 0;
+  document.body.classList.toggle("has-cart-bar", count > 0);
+}
+
+// Balken ausblenden, solange der Anfrage-Bereich sichtbar ist
+const orderSectionElement = document.getElementById("anfrage");
+
+if (orderSectionElement && "IntersectionObserver" in window) {
+  new IntersectionObserver(entries => {
+    document.body.classList.toggle("order-visible", entries[0].isIntersecting);
+  }, { threshold: 0.15 }).observe(orderSectionElement);
 }
 
 const productsContainer = document.getElementById("products");
@@ -213,10 +274,15 @@ function renderProducts() {
 
   filteredProducts.forEach(product => {
     const card = document.createElement("div");
-    card.className = "product-card";
-
     const soldOut = product.stock === 0;
+    card.className = "product-card" + (soldOut ? " is-sold-out" : "");
     const comingSoon = product.stock === -1;
+    const { name: cleanName, badges } = splitName(product.name);
+    const stock = stockInfo(product);
+
+    const badgeHtml = badges
+      .map(b => `<span class="badge ${b.cls}">${b.label}</span>`)
+      .join("");
 
     let details = "";
 
@@ -239,9 +305,12 @@ function renderProducts() {
 
     card.innerHTML = `
       <div class="product-image">
+        <div class="product-badges">${badgeHtml}</div>
+        <span class="product-id">${product.id}</span>
         <img
           src="bilder/${product.id}.png"
-          alt="${product.name}"
+          alt="${cleanName}"
+          loading="lazy"
           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
         >
 
@@ -256,7 +325,7 @@ function renderProducts() {
           ${product.category}
         </div>
 
-        <h3>${product.name}</h3>
+        <h3>${cleanName}</h3>
 
         <p class="product-manufacturer">
           ${product.manufacturer}
@@ -266,18 +335,14 @@ function renderProducts() {
           ${details}
         </div>
 
-        <div class="product-price">
-          ${product.price.toFixed(2).replace(".", ",")} €
-        </div>
+        <div class="product-footer">
+          <div class="product-price">
+            ${formatPrice(product.price)}
+          </div>
 
-        <div class="product-stock ${soldOut ? "empty" : ""} ${comingSoon ? "coming-soon" : ""}">
-          ${
-            soldOut
-              ? "Ausverkauft"
-              : comingSoon
-                ? "Bald verfügbar"
-                : `Lagerstand: ${product.stock}`
-          }
+          <div class="product-stock ${stock.cls}">
+            <span class="stock-dot"></span>${stock.text}
+          </div>
         </div>
 
         <button
@@ -407,7 +472,7 @@ function renderCart() {
 
     cartItem.innerHTML = `
       <div class="cart-item-info">
-        <strong>${product.name}</strong>
+        <strong>${splitName(product.name).name}</strong>
 
         <span>
           ${product.price.toFixed(2).replace(".", ",")} €

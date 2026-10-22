@@ -20,12 +20,12 @@
     <div class="container header-inner">
 
       <a href="#" class="logo">
-        ZP PYROTECHNIK
+        ZP <span>PYROTECHNIK</span>
       </a>
 
       <nav>
         <a href="#produkte">Produkte</a>
-        <a href="#anfrage">Warenkorb (<span id="cart-count">0</span>)</a>
+        <a href="#anfrage" class="nav-cart">Warenkorb (<span id="cart-count">0</span>)</a>
       </nav>
 
     </div>
@@ -39,15 +39,36 @@
 
         <img src="bilder/logo.png" alt="ZP Pyrotechnik Logo" class="hero-logo">
 
-        <h1>Funke, Argento, Iskra, Albert, Riakeo, Pulver, Klasek, Pyro Specials, uvm.</h1>
+        <p class="hero-label">ZP PYROTECHNIK · FEUERWERK 2026</p>
+
+        <h1>BESTE PREISE <span>WEIT UND BREIT</span></h1>
 
         <p>
-          BESTE PREISE WEIT UND BREIT! <br>Batterien, Raketen, Leuchtfeuerwerk, Böller und Verbundfeuerwerk.
+          Batterien, Raketen, Leuchtfeuerwerk, Böller und Verbundfeuerwerk.<br>
+          Online anfragen – bezahlen – abholen.
         </p>
 
-        <a href="https://drive.google.com/file/d/14HjgEY1YQwFRyYYfL0xbP7ZkX8jfa7dt/view" class="prospekt-button" target="_blank">
-          ZUM PROSPEKT + VIDEOS
-        </a>
+        <div class="hero-buttons">
+          <a href="#produkte" class="hero-button">
+            ZU DEN PRODUKTEN
+          </a>
+
+          <a href="https://drive.google.com/file/d/14HjgEY1YQwFRyYYfL0xbP7ZkX8jfa7dt/view" class="hero-button secondary" target="_blank" rel="noopener">
+            PROSPEKT + VIDEOS
+          </a>
+        </div>
+
+        <ul class="brand-strip" aria-label="Hersteller">
+          <li>Funke</li>
+          <li>Argento</li>
+          <li>Iskra</li>
+          <li>Albert</li>
+          <li>Riakeo</li>
+          <li>Pulver</li>
+          <li>Klasek</li>
+          <li>Pyro Specials</li>
+          <li>uvm.</li>
+        </ul>
 
       </div>
     </section>
@@ -57,7 +78,7 @@
       <div class="container">
 
         <div class="section-heading">
-          <p class="section-label"></p>
+          <p class="section-label">SORTIMENT 2026</p>
           <h2>Produkte</h2>
         </div>
 
@@ -217,7 +238,6 @@
                   gelesen habe. Eine Ausweiskontrolle erfolgt bei der Produktübergabe.
                 </span>
 
-
               </label>
 
 
@@ -239,6 +259,17 @@
     </section>
 
   </main>
+
+
+  <!-- Mitfahrender Warenkorb-Balken (wird per app.js eingeblendet) -->
+  <a href="#anfrage" id="cart-bar" class="cart-bar" hidden>
+    <span class="cart-bar-info">
+      🛒 <strong id="cart-bar-count">0 Artikel</strong>
+      <span class="cart-bar-sep">·</span>
+      <span id="cart-bar-total">0,00 €</span>
+    </span>
+    <span class="cart-bar-cta">Zur Anfrage →</span>
+  </a>
 
 
   <footer class="site-footer">
