@@ -1,7 +1,6 @@
 
 const products = [
   // FEUERWERKSBATTERIEN
-  { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
   { id: "C2", name: "Wintersun", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "134g", stock: 25 },
   { id: "C6", name: "Blitz Rums 16", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 8.99, nem: "80g", stock: 45 },
   { id: "C12", name: "Monster", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 1 },
@@ -28,6 +27,7 @@ const products = [
   { id: "C42", name: "Terremoto 1s", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 0 },
   { id: "C44", name: "Veronica", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 18 },
+  { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
   { id: "C34", name: "Orchid (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: -1 },
   { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: -1 },
   { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "267g", stock: -1 },
