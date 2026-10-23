@@ -175,7 +175,8 @@ function formatPrice(value) {
 function stockInfo(product) {
   if (product.stock === 0) return { text: "Ausverkauft", cls: "is-out" };
   if (product.stock === -1) return { text: "Bald verfügbar", cls: "is-soon" };
-  if (product.stock <= 5) return { text: `Nur noch ${product.stock} Stück`, cls: "is-low" };
+  const lowLimit = product.category === "Verbundfeuerwerk" ? 3 : 9;
+  if (product.stock <= lowLimit) return { text: `Nur noch ${product.stock} Stück`, cls: "is-low" };
   return { text: "Verfügbar", cls: "is-ok" };
 }
 
