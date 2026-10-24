@@ -10,7 +10,7 @@ const products = [
   { id: "C18", name: "Plasma", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: 6 },
   { id: "C19", name: "Expression (ab 200€, max 1 Stk.)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "287g", stock: 1 },
   { id: "C20", name: "Aeon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 49 },
-  { id: "C21", name: "Zaplon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 37.99, nem: "494g", stock: 0 },
+  { id: "C21", name: "Zaplon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, nem: "494g", stock: 0 },
   { id: "C25", name: "Opal", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 9 },
   { id: "C28", name: "No Fear (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "24", price: 39.00, nem: "480g", stock: 0 },
   { id: "C29", name: "Red Crossette (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "208g", stock: 0 },
