@@ -17,7 +17,7 @@ const products = [
   { id: "C30", name: "Hysteria", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "287g", stock: 0 },
   { id: "C31", name: "Hustler", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "25", price: 39.00, nem: "500g", stock: 4 },
   { id: "C32", name: "Strobek", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 9.99, nem: "146g", stock: 7 },
-  { id: "C33", name: "Baron Brokat", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "16", price: 12.99, nem: "227g", stock: 2 },
+  { id: "C33", name: "Baron Brokat", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "16", price: 12.99, nem: "227g", stock: 1 },
   { id: "C35", name: "Kaskade", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "254g", stock: 15 },
   { id: "C36", name: "Ultramarin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 6 },
   { id: "C37", name: "Leuchtnebel", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "25", price: 39.00, nem: "500g", stock: 7 },
