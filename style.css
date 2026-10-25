@@ -712,8 +712,8 @@ section h2 {
 .product-stock.is-ok { color: var(--green); }
 .product-stock.is-low { color: #ffd23f; }
 .product-stock.is-soon { color: #a78bfa; }
-.product-stock.is-out { color: #777777; }
-.product-stock.is-out .stock-dot { box-shadow: none; }
+.product-stock.is-out { color: #e3262b; }
+/*.product-stock.is-out .stock-dot { box-shadow: none; }*/
 
 
 /* =========================================
