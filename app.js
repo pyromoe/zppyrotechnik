@@ -144,7 +144,7 @@ const products = [
   { id: "V17", name: "Candy Mountain", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 119.00, nem: "1600g", stock: 9 },
   { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 6 },
   { id: "V19", name: "Reborn Phoenix (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "ProXplosion", shots: "99", price: 189.00, nem: "1785g", stock: -1 },
-  { id: "V20", name: "El Toro (EXKLUSIV AM STAND)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
+  { id: "V20", name: "El Toro (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
 ];
 
 // Hinweise in Klammern (z. B. "(ab November)") werden als Badge angezeigt
