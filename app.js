@@ -44,6 +44,9 @@ const products = [
   { id: "C55", name: "Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: -1 },
   { id: "C56", name: "Polarstern (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
   { id: "C57", name: "Aidos (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
+  //{ id: "C58", name: "Celestia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
+  //{ id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
+  
 
   // BOMBENROHRE
   { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 0 },
@@ -93,6 +96,7 @@ const products = [
   { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 9 },
   { id: "R16", name: "Silberblitz Raketen (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: -1 },
   { id: "R18", name: "Top 10 (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
+  //{ id: "R19", name: "Kosmos Sredni (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
   
   // LEUCHTFEUERWERK
   { id: "L1", name: "Super Etna", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Panta", pieces: "6", price: 5.99, nem: "61g (10,2g/Stk)", stock: 24 },
@@ -145,6 +149,7 @@ const products = [
   { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 6 },
   { id: "V19", name: "Reborn Phoenix (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "ProXplosion", shots: "99", price: 189.00, nem: "1785g", stock: -1 },
   { id: "V20", name: "El Toro (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
+  //{ id: "V21", name: "Push it to the Limit (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
 ];
 
 // Hinweise in Klammern (z. B. "(ab November)") werden als Badge angezeigt
