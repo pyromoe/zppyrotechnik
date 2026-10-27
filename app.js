@@ -27,7 +27,7 @@ const products = [
   { id: "C42", name: "Terremoto 1s (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 0 },
   { id: "C44", name: "Veronica", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 17 },
-  { id: "C21", name: "Zaplon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, nem: "494g", stock: -1 },
+  { id: "C21", name: "Zaplon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, nem: "494g", stock: 0 },
   { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
   { id: "C34", name: "Orchid (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: -1 },
   { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: -1 },
@@ -44,8 +44,8 @@ const products = [
   { id: "C55", name: "Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: -1 },
   { id: "C56", name: "Polarstern (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
   { id: "C57", name: "Aidos (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
-  //{ id: "C58", name: "Celestia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
-  //{ id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
+  { id: "C58", name: "Celestia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: -1 },
+  { id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: -1 },
   
 
   // BOMBENROHRE
@@ -149,7 +149,7 @@ const products = [
   { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 6 },
   { id: "V19", name: "Reborn Phoenix (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "ProXplosion", shots: "99", price: 189.00, nem: "1785g", stock: -1 },
   { id: "V20", name: "El Toro (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
-  //{ id: "V21", name: "Push it to the Limit (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
+  { id: "V21", name: "Big in Japan (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "76", price: 89.00, nem: "988g", stock: -1 },
 ];
 
 // Hinweise in Klammern (z. B. "(ab November)") werden als Badge angezeigt
