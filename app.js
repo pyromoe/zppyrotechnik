@@ -27,7 +27,7 @@ const products = [
   { id: "C42", name: "Terremoto 1s (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 0 },
   { id: "C44", name: "Veronica", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 17 },
-  { id: "C21", name: "Zaplon (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, nem: "494g", stock: -1 },
+  { id: "C21", name: "Zaplon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, nem: "494g", stock: -1 },
   { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
   { id: "C34", name: "Orchid (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: -1 },
   { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: -1 },
@@ -96,7 +96,7 @@ const products = [
   { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 9 },
   { id: "R16", name: "Silberblitz Raketen (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: -1 },
   { id: "R18", name: "Top 10 (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
-  //{ id: "R19", name: "Kosmos Sredni (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
+  { id: "R19", name: "Kosmos Sredni (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke (Iskra)", pieces: "10", price: 15.99, nem: "190g (16g/Stk)", stock: -1 },
   
   // LEUCHTFEUERWERK
   { id: "L1", name: "Super Etna", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Panta", pieces: "6", price: 5.99, nem: "61g (10,2g/Stk)", stock: 24 },
