@@ -59,7 +59,8 @@ const products = [
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 9 },
   { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 16 },
-  { id: "B11", name: "Space Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 11.99, nem: "76g (19g/Stk)", stock: -1 },
+  { id: "B11", name: "Space Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: -1 },
+  { id: "B12", name: "Phantom Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: -1 },
 
   // BÖLLER / KNALLER
   { id: "K1", name: "Blauer Berber", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "20", price: 5.99, nem: "30g (1,5g/Stk)", stock: 35 },
@@ -78,6 +79,7 @@ const products = [
   { id: "K12", name: "Super Böller I (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 3.99, nem: "-", stock: 45 },
   { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.49, nem: "-", stock: 32 },
   { id: "K14", name: "El Boomba (ab November)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "20", price: 4.99, nem: "60g (3g/Stk)", stock: -1 },
+  
 
   // RAKETEN
   { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 23 },
