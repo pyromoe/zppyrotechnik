@@ -3,7 +3,7 @@ const products = [
   // FEUERWERKSBATTERIEN
   { id: "C2", name: "Wintersun", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "134g", stock: 24 },
   { id: "C6", name: "Blitz Rums 16 (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 8.99, nem: "80g", stock: 45 },
-  { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 1 },
+  { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 0 },
   { id: "C13", name: "Capri", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 0 },
   { id: "C14", name: "Frostbrand", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: 24 },
   { id: "C17", name: "Firlefanz", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "135g", stock: 0 },
