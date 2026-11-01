@@ -46,6 +46,7 @@ const products = [
   { id: "C57", name: "Aidos (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
   { id: "C58", name: "Celestia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: -1 },
   { id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: -1 },
+  { id: "C60", name: "Tigerfunken (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: -1 },
 
   // BOMBENROHRE
   { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 0 },
