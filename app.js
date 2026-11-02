@@ -2,10 +2,10 @@
 const products = [
   // FEUERWERKSBATTERIEN
   { id: "C2", name: "Wintersun", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "134g", stock: 24 },
+  { id: "C17", name: "Firlefanz", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "135g", stock: 0 },
   { id: "C6", name: "Blitz Rums 16 (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 8.99, nem: "80g", stock: 45 },
   { id: "C14", name: "Frostbrand", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: 24 },
-  { id: "C17", name: "Firlefanz", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "135g", stock: 0 },
-  { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 0 },
+  { id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: -1 },
   { id: "C13", name: "Capri", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 0 },
   { id: "C18", name: "Plasma", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: 7 },
   { id: "C19", name: "Expression", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "287g", stock: 0 },
@@ -14,6 +14,9 @@ const products = [
   { id: "C36", name: "Ultramarin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 3 },
   { id: "C41", name: "Harlekin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 7 },
   { id: "C44", name: "Veronica", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 17 },
+  { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
+  { id: "C34", name: "Orchid (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: -1 },
+  { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "267g", stock: -1 },
   { id: "C20", name: "Aeon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 45 },
   { id: "C40", name: "Asoka", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: 52 },
    { id: "C57", name: "Aidos (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "7", price: 3.99, nem: "56g", stock: -1 },
@@ -27,13 +30,12 @@ const products = [
   { id: "C39", name: "Hacker Man", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "19", price: 29.00, nem: "380g", stock: 6 },
   { id: "C42", name: "Terremoto 1s (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 0 },
+  { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 0 },
   { id: "C21", name: "Zaplon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, nem: "494g", stock: 0 },
-  { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
   { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: -1 },
   { id: "C33", name: "Baron Brokat (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "16", price: 12.99, nem: "227g", stock: -1 },
-  { id: "C34", name: "Orchid (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: -1 },
-  { id: "C45", name: "Impression (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "267g", stock: -1 },
   { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 34.99, nem: "497g", stock: -1 },
+  { id: "C58", name: "Celestia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: -1 },
   { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 44.99, nem: "497g", stock: -1 },
   { id: "C48", name: "Dynamite (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "26", price: 39.00, nem: "499g", stock: -1 },
   { id: "C49", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 35.00, nem: "480g", stock: -1 },
@@ -45,8 +47,6 @@ const products = [
   { id: "C54", name: "Mini Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: -1 },
   { id: "C55", name: "Blitzeria (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: -1 },
   { id: "C56", name: "Polarstern (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
-  { id: "C58", name: "Celestia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: -1 },
-  { id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: -1 },
   
   // BOMBENROHRE
   { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 0 },
@@ -132,15 +132,8 @@ const products = [
   { id: "L27", name: "Space Ship (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Pulver", pieces: "2", price: 6.99, nem: "-", stock: -1 },
 
   // VERBUNDFEUERWERK
+  
   { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 9 },
-  { id: "V2", name: "Szakal", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 79.00, nem: "907g", stock: 0 },
-  { id: "V3", name: "Minerva Reconquista", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 0 },
-  { id: "V4", name: "King Of Bling", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 99.00, nem: "1258g", stock: 0 },
-  { id: "V5", name: "King of the Sky", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "188", price: 299.00, nem: "3870g", stock: 0 },
-  { id: "V6", name: "No Limits Gold", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", shots: "80", price: 139.00, nem: "1600g", stock: 0 },
-  { id: "V7", name: "The Neonfather", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "103", price: 89.00, nem: "963g", stock: 0 },
-  { id: "V8", name: "Pyroshow 2000 Sacramentum", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "100", price: 169.00, nem: "2000g", stock: 0 },
-  { id: "V10", name: "Aniol", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "103", price: 99.00, nem: "988g", stock: 0 },
   { id: "V11", name: "Smooth Operator", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "100", price: 229.00, nem: "2000g", stock: 2 },
   { id: "V12", name: "Time to Shine (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "266", price: 279.00, nem: "3496g", stock: 1 },
   { id: "V13", name: "Okazja (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "128", price: 89.00, nem: "794g", stock: 3 },
@@ -152,6 +145,14 @@ const products = [
   { id: "V19", name: "Reborn Phoenix (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "ProXplosion", shots: "99", price: 189.00, nem: "1785g", stock: -1 },
   { id: "V20", name: "El Toro (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
   { id: "V21", name: "Big in Japan (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "76", price: 89.00, nem: "988g", stock: -1 },
+  { id: "V2", name: "Szakal", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 79.00, nem: "907g", stock: 0 },
+  { id: "V3", name: "Minerva Reconquista", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 0 },
+  { id: "V4", name: "King Of Bling", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 99.00, nem: "1258g", stock: 0 },
+  { id: "V5", name: "King of the Sky", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "188", price: 299.00, nem: "3870g", stock: 0 },
+  { id: "V6", name: "No Limits Gold", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", shots: "80", price: 139.00, nem: "1600g", stock: 0 },
+  { id: "V7", name: "The Neonfather", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "103", price: 89.00, nem: "963g", stock: 0 },
+  { id: "V8", name: "Pyroshow 2000 Sacramentum", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "100", price: 169.00, nem: "2000g", stock: 0 },
+  { id: "V10", name: "Aniol", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "103", price: 99.00, nem: "988g", stock: 0 },
 ];
 
 // Hinweise in Klammern (z. B. "(ab November)") werden als Badge angezeigt
