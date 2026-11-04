@@ -58,14 +58,14 @@ const products = [
   { id: "B7", name: "Glamour Shots (EXKLUSIV AM STAND)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "10", price: 11.99, nem: "90g (9g/Stk)", stock: -1 },
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 4 },
-  { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 16 },
+  { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 9 },
   { id: "B11", name: "Space Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: -1 },
   { id: "B12", name: "Phantom Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: -1 },
 
   // BÖLLER / KNALLER
   { id: "K1", name: "Blauer Berber", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "20", price: 5.99, nem: "30g (1,5g/Stk)", stock: 35 },
   { id: "K2", name: "Knallfrösche C", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "4", price: 1.99, nem: "10g (2,5g/Stk)", stock: 100 },
-  { id: "K3", name: "Dum Bum Big F2", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Klasek", pieces: "10", price: 2.99, nem: "10g (1g/Stk)", stock: 11 },
+  { id: "K3", name: "Dum Bum Big F2", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Klasek", pieces: "10", price: 2.99, nem: "10g (1g/Stk)", stock: 9 },
   { id: "K4", name: "No Limits Banger", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Piromax", pieces: "5", price: 3.99, nem: "25g (5g/Stk)", stock: 4 },
   { id: "K5", name: "Dum Bum Black Thunder", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Klasek", pieces: "100", price: 8.99, nem: "100g (1g/Stk)", stock: 40 },
   { id: "K6", name: "Bellabomba", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Blackboxx", pieces: "10", price: 3.99, nem: "15g (1,5g/Stk)", stock: 45 },
@@ -95,7 +95,7 @@ const products = [
   { id: "R13", name: "Knallraketen mit Pfeiffaufstieg (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
   { id: "R14", name: "Ronin", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "6", price: 7.99, nem: "42g (7g/Stk)", stock: 15 },
   { id: "R15", name: "Fun 4 All Pack", category: "Raketen", categoryClass: "F2", manufacturer: "Lesli", pieces: "122", price: 15.99, nem: "117g", stock: 20 },
-  { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 4 },
+  { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 3 },
   { id: "R16", name: "Silberblitz Raketen (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: -1 },
   { id: "R18", name: "Top 10 (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
   { id: "R19", name: "Kosmos Sredni (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke (Iskra)", pieces: "12", price: 15.99, nem: "190g (16g/Stk)", stock: -1 },
@@ -133,14 +133,14 @@ const products = [
 
   // VERBUNDFEUERWERK
   
-  { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 9 },
+  { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 4 },
   { id: "V11", name: "Smooth Operator", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "100", price: 229.00, nem: "2000g", stock: 2 },
   { id: "V12", name: "Time to Shine (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "266", price: 279.00, nem: "3496g", stock: 1 },
   { id: "V13", name: "Okazja (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "128", price: 89.00, nem: "794g", stock: 3 },
   { id: "V14", name: "Kiss From Hell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "91", price: 129.00, nem: "1500g", stock: 3 },
   { id: "V15", name: "Wilk (Batch 2023)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 99.00, nem: "907g", stock: 0 },
-  { id: "V16", name: "Boom Box XL (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "218", price: 299.00, nem: "3974g", stock: 1 },
-  { id: "V17", name: "Candy Mountain", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 119.00, nem: "1600g", stock: 9 },
+  { id: "V16", name: "Boom Box XL (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "218", price: 299.00, nem: "3974g", stock: 0 },
+  { id: "V17", name: "Candy Mountain", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 119.00, nem: "1600g", stock: 8 },
   { id: "V18", name: "Coconut Grove", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 6 },
   { id: "V19", name: "Reborn Phoenix (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "ProXplosion", shots: "99", price: 189.00, nem: "1785g", stock: -1 },
   { id: "V20", name: "El Toro (ab November)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: -1 },
