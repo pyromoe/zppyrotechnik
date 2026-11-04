@@ -66,7 +66,7 @@ const products = [
   { id: "K1", name: "Blauer Berber", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "20", price: 5.99, nem: "30g (1,5g/Stk)", stock: 35 },
   { id: "K2", name: "Knallfrösche C", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "4", price: 1.99, nem: "10g (2,5g/Stk)", stock: 100 },
   { id: "K3", name: "Dum Bum Big F2", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Klasek", pieces: "10", price: 2.99, nem: "10g (1g/Stk)", stock: 9 },
-  { id: "K4", name: "No Limits Banger", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Piromax", pieces: "5", price: 3.99, nem: "25g (5g/Stk)", stock: 4 },
+  { id: "K4", name: "No Limits Banger", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Piromax", pieces: "3", price: 3.99, nem: "25g (5g/Stk)", stock: 4 },
   { id: "K5", name: "Dum Bum Black Thunder", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Klasek", pieces: "100", price: 8.99, nem: "100g (1g/Stk)", stock: 40 },
   { id: "K6", name: "Bellabomba", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Blackboxx", pieces: "10", price: 3.99, nem: "15g (1,5g/Stk)", stock: 45 },
   { id: "K7", name: "Dum Bum Black Pirate", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Klasek", pieces: "100", price: 3.99, nem: "85g (0,85g/Stk)", stock: 64 },
