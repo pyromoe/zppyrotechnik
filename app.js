@@ -57,7 +57,7 @@ const products = [
   { id: "B6", name: "God Song", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Riakeo", pieces: "4", price: 15.99, nem: "100g (25g/Stk)", stock: 0 },
   { id: "B7", name: "Glamour Shots (EXKLUSIV AM STAND)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "10", price: 11.99, nem: "90g (9g/Stk)", stock: -1 },
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
-  { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 9 },
+  { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 4 },
   { id: "B10", name: "Big Bang 15G", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 16 },
   { id: "B11", name: "Space Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: -1 },
   { id: "B12", name: "Phantom Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: -1 },
