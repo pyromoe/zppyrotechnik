@@ -14,8 +14,8 @@ const products = [
   { id: "C19", name: "Expression", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "287g", stock: 0 },
   { id: "C25", name: "Opal", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 5 },
   { id: "C35", name: "Kaskade", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "254g", stock: 15 },
-  { id: "C36", name: "Ultramarin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 3 },
-  { id: "C41", name: "Harlekin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 7 },
+  { id: "C36", name: "Ultramarin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 2 },
+  { id: "C41", name: "Harlekin", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 6 },
   { id: "C44", name: "Veronica", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 17 },
   { id: "C1", name: "Scorpio (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: -1 },
   { id: "C34", name: "Orchid (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "260g", stock: -1 },
@@ -28,7 +28,7 @@ const products = [
   //{ id: "C30", name: "Hysteria", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "287g", stock: 0 },
   { id: "C31", name: "Hustler", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "25", price: 39.00, nem: "500g", stock: 2 },
   { id: "C37", name: "Leuchtnebel", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "25", price: 39.00, nem: "500g", stock: 6 },
-  { id: "C39", name: "Hacker Man", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "19", price: 29.00, nem: "380g", stock: 6 },
+  { id: "C39", name: "Hacker Man", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "19", price: 29.00, nem: "380g", stock: 5 },
   { id: "C42", name: "Terremoto 1s (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 0 },
   { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 0 },
@@ -84,7 +84,7 @@ const products = [
   // RAKETEN
   { id: "R1", name: "Shell Show", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, nem: "450g (75g/Stk)", stock: 23 },
   { id: "R2", name: "Mach One (ABVERKAUF!)", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "10", price: 28.99, nem: "200g (20g/Stk)", stock: 0 },
-  { id: "R3", name: "Signature Range Rocket", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, nem: "375g (75g/Stk)", stock: 12 },
+  { id: "R3", name: "Signature Range Rocket", category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, nem: "375g (75g/Stk)", stock: 9 },
   { id: "R6", name: "Baby-Raketen Titansalut", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "50", price: 7.99, nem: "25g (0,5g/Stk)", stock: 38 },
   { id: "R7", name: "Ariane 50", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "5", price: 29.00, nem: "250g (50g/Stk)", stock: 21 },
   { id: "R8", name: "No Limits", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "4", price: 23.99, nem: "176g (44g/Stk)", stock: 17 },
@@ -133,7 +133,7 @@ const products = [
 
   // VERBUNDFEUERWERK
   
-  { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 4 },
+  { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 3 },
   { id: "V11", name: "Smooth Operator", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "100", price: 229.00, nem: "2000g", stock: 2 },
   { id: "V12", name: "Time to Shine (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "266", price: 279.00, nem: "3496g", stock: 1 },
   { id: "V13", name: "Okazja (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "128", price: 89.00, nem: "794g", stock: 3 },
