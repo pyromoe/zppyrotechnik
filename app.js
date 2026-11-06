@@ -6,7 +6,7 @@ const products = [
   { id: "C6", name: "Blitz Rums 16 (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 8.99, nem: "80g", stock: 38 },
   { id: "C14", name: "Frostbrand", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: 13 },
   { id: "C32", name: "Strobek", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 9.99, nem: "146g", stock: 0 },
-  { id: "C59", name: "Matrix (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: 1 },
+  { id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: -1 },
   { id: "C38", name: "Smaragd", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "10", price: 11.99, nem: "138g", stock: 16 },
   { id: "C33", name: "Baron Brokat (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "16", price: 12.99, nem: "227g", stock: -1 },
   { id: "C13", name: "Capri", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 19.99, nem: "325g", stock: 0 },
