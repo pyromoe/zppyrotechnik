@@ -163,7 +163,7 @@ const BADGE_RULES = [
   { match: /lieferdatum offen/i, label: "Lieferdatum offen", cls: "badge-soon" },
   { match: /abverkauf/i, label: "Abverkauf", cls: "badge-sale" },
   { match: /exklusiv am stand/i, label: "Exklusiv am Stand", cls: "badge-exclusive" },
-  { match: /^\s*neu!?\s*$/i, label: "Neu", cls: "badge-exclusive" },
+  { match: /^\s*neu!?\s*$/i, label: "Neu!", cls: "badge-exclusive" },
   { match: /ab 300/i, label: null, cls: "badge-info" }
 ];
 
