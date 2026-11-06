@@ -163,6 +163,7 @@ const BADGE_RULES = [
   { match: /lieferdatum offen/i, label: "Lieferdatum offen", cls: "badge-soon" },
   { match: /abverkauf/i, label: "Abverkauf", cls: "badge-sale" },
   { match: /exklusiv am stand/i, label: "Exklusiv am Stand", cls: "badge-exclusive" },
+  { match: /^\s*neu!?\s*$/i, label: "Neu", cls: "badge-exclusive" },
   { match: /ab 300/i, label: null, cls: "badge-info" }
 ];
 
@@ -413,7 +414,7 @@ function addToCart(productId) {
       product.stock > 0
     ) {
       alert(
-        `Von "${product.name}" sind nur ${product.stock} Stück verfügbar.`
+        `Von "${splitName(product.name).name}" sind nur ${product.stock} Stück verfügbar.`
       );
       return;
     }
@@ -562,7 +563,7 @@ function attachCartControls() {
         item.quantity >= product.stock
       ) {
         alert(
-          `Von "${product.name}" sind nur ${product.stock} Stück verfügbar.`
+          `Von "${splitName(product.name).name}" sind nur ${product.stock} Stück verfügbar.`
         );
         return;
       }
@@ -693,7 +694,7 @@ ich möchte folgende Produkte anfragen:
       total += itemTotal;
 
       message +=
-        `- ${product.name} (${product.id}) × ${item.quantity} = ${itemTotal.toFixed(2).replace(".", ",")} €\n`;
+        `- ${splitName(product.name).name} (${product.id}) × ${item.quantity} = ${itemTotal.toFixed(2).replace(".", ",")} €\n`;
     });
 
     message += `
