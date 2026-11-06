@@ -1,10 +1,10 @@
 
 const products = [
   // FEUERWERKSBATTERIEN
-  { id: "C2", name: "Wintersun", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "134g", stock: 24 },
+  { id: "C2", name: "Wintersun", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "134g", stock: 23 },
   { id: "C17", name: "Firlefanz", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 8.99, nem: "135g", stock: 0 },
-  { id: "C6", name: "Blitz Rums 16 (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 8.99, nem: "80g", stock: 43 },
-  { id: "C14", name: "Frostbrand", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: 17 },
+  { id: "C6", name: "Blitz Rums 16 (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 8.99, nem: "80g", stock: 38 },
+  { id: "C14", name: "Frostbrand", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: 13 },
   { id: "C32", name: "Strobek", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "16", price: 9.99, nem: "146g", stock: 0 },
   { id: "C59", name: "Matrix (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "16", price: 9.99, nem: "168g", stock: -1 },
   { id: "C38", name: "Smaragd", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "10", price: 11.99, nem: "138g", stock: 16 },
