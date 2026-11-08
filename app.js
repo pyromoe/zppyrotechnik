@@ -58,7 +58,7 @@ const products = [
   { id: "B7", name: "Glamour Shots", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "10", price: 11.99, nem: "90g (9g/Stk)", stock: 2 },
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 6 },
-  { id: "B10", name: "Big Bang 15G (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 7 },
+  { id: "B10", name: "Big Bang 15G (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 4 },
   { id: "B11", name: "Space Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: -1 },
   { id: "B12", name: "Phantom Shots (ab November)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: -1 },
 
@@ -95,7 +95,7 @@ const products = [
   { id: "R13", name: "Knallraketen mit Pfeiffaufstieg (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
   { id: "R14", name: "Ronin", category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "6", price: 7.99, nem: "42g (7g/Stk)", stock: 15 },
   { id: "R15", name: "Fun 4 All Pack", category: "Raketen", categoryClass: "F2", manufacturer: "Lesli", pieces: "122", price: 15.99, nem: "117g", stock: 20 },
-  { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 2 },
+  { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 1 },
   { id: "R16", name: "Silberblitz Raketen (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: -1 },
   { id: "R18", name: "Top 10 (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
   { id: "R19", name: "Kosmos Sredni (ab November)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke (Iskra)", pieces: "12", price: 15.99, nem: "190g (16g/Stk)", stock: -1 },
