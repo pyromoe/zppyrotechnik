@@ -157,7 +157,7 @@ const products = [
 
 // Hinweise in Klammern (z. B. "(ab November)") werden als Badge angezeigt
 const BADGE_RULES = [
-  { match: /ab november/i, label: "Ab November", cls: "badge-soon" },
+  { match: /ab november/i, label: "Mitte November", cls: "badge-soon" },
   { match: /ab oktober/i, label: "Ab Oktober", cls: "badge-soon" },
   { match: /ab dezember/i, label: "Ab Dezember", cls: "badge-soon" },
   { match: /lieferdatum offen/i, label: "Lieferdatum offen", cls: "badge-soon" },
