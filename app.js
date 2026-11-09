@@ -1,3 +1,10 @@
+// =========================================
+// WARTUNGSMODUS
+// true  = Shop geschlossen, statt der Produkte erscheint ein Hinweis
+// false = Shop normal geöffnet
+// =========================================
+const WARTUNGSMODUS = false;
+const WIEDERERÖFFNUNG = "15.01.2027";
 
 const products = [
   // FEUERWERKSBATTERIEN
@@ -727,6 +734,108 @@ ${name}
   });
 }
 
-renderProducts();
-renderCart();
-updateCartCount();
+function showMaintenance() {
+  const style = document.createElement("style");
+  style.textContent = `
+    .maintenance-card {
+      max-width: 760px;
+      margin: 10px auto 0;
+      padding: 44px 36px;
+      text-align: center;
+      background: var(--card, #171717);
+      border: 1px solid rgba(255, 122, 0, 0.45);
+      border-radius: 22px;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.45), 0 0 60px rgba(255, 122, 0, 0.12);
+    }
+    .maintenance-icon {
+      width: 74px;
+      height: 74px;
+      margin: 0 auto 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(255, 122, 0, 0.12);
+      border: 2px solid #ff7a00;
+      font-size: 34px;
+    }
+    .maintenance-card .maintenance-label {
+      margin: 0 0 6px;
+      color: #ff8a00;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 4px;
+    }
+    .maintenance-card h2 {
+      margin: 0 0 14px;
+    }
+    .maintenance-card p {
+      margin: 0 auto 14px;
+      max-width: 560px;
+      color: #cfcfcf;
+      font-size: 17px;
+    }
+    .maintenance-date {
+      display: inline-block;
+      margin: 10px 0 22px;
+      padding: 12px 26px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, #ff8a00, #ff6200);
+      color: #ffffff;
+      font-family: "Anton", Impact, sans-serif;
+      font-size: 34px;
+      letter-spacing: 1px;
+      box-shadow: 0 8px 25px rgba(255, 98, 0, 0.3);
+    }
+    .maintenance-contact {
+      color: #9a9a9a !important;
+      font-size: 15px !important;
+    }
+    .maintenance-contact a {
+      color: #ff7a00;
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .maintenance-card { padding: 32px 20px; }
+      .maintenance-date { font-size: 28px; }
+    }
+  `;
+  document.head.appendChild(style);
+
+  const productsSection = document.getElementById("produkte");
+
+  if (productsSection) {
+    productsSection.innerHTML = `
+      <div class="container">
+        <div class="maintenance-card">
+          <div class="maintenance-icon">🛠️</div>
+          <p class="maintenance-label">BESTELLSCHLUSS</p>
+          <h2>Shop im Wartungsmodus</h2>
+          <p>
+            Vielen Dank für eure zahlreichen Bestellungen!
+            Unser Online-Shop ist derzeit geschlossen, Bestellungen sind momentan nicht möglich.
+          </p>
+          <p>Der Shop öffnet wieder am</p>
+          <div class="maintenance-date">${WIEDERERÖFFNUNG}</div>
+          <p class="maintenance-contact">
+            Fragen? <a href="tel:+436505230073">0650 523 0073</a> ·
+            <a href="mailto:zp.pyrotechnik@gmail.com">zp.pyrotechnik@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    `;
+  }
+
+  // Warenkorb, Bestellformular und Warenkorb-Knöpfe ausblenden
+  document.getElementById("anfrage")?.remove();
+  document.getElementById("cart-bar")?.remove();
+  document.querySelectorAll('nav a[href="#anfrage"]').forEach(link => link.remove());
+}
+
+if (WARTUNGSMODUS) {
+  showMaintenance();
+} else {
+  renderProducts();
+  renderCart();
+  updateCartCount();
+}
