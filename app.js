@@ -3,8 +3,8 @@
 // true  = Shop geschlossen, statt der Produkte erscheint ein Hinweis
 // false = Shop normal geöffnet
 // =========================================
-const WARTUNGSMODUS = false;
-const WIEDERERÖFFNUNG = "15.01.2027";
+const WARTUNGSMODUS = true;
+const WIEDERERÖFFNUNG = "10.11.2026";
 
 const products = [
   // FEUERWERKSBATTERIEN
@@ -808,12 +808,11 @@ function showMaintenance() {
     productsSection.innerHTML = `
       <div class="container">
         <div class="maintenance-card">
-          <div class="maintenance-icon">🛠️</div>
-          <p class="maintenance-label">BESTELLSCHLUSS</p>
+          //<div class="maintenance-icon">🛠️</div>
+          //<p class="maintenance-label">BESTELLSCHLUSS</p>
           <h2>Shop im Wartungsmodus</h2>
           <p>
-            Vielen Dank für eure zahlreichen Bestellungen!
-            Unser Online-Shop ist derzeit geschlossen, Bestellungen sind momentan nicht möglich.
+            Der Online-Shop ist derzeit geschlossen, Bestell-Anfragen sind momentan nicht möglich.
           </p>
           <p>Der Shop öffnet wieder am</p>
           <div class="maintenance-date">${WIEDERERÖFFNUNG}</div>
