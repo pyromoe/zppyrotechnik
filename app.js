@@ -808,8 +808,8 @@ function showMaintenance() {
     productsSection.innerHTML = `
       <div class="container">
         <div class="maintenance-card">
-          //<div class="maintenance-icon">🛠️</div>
-          //<p class="maintenance-label">BESTELLSCHLUSS</p>
+          <div class="maintenance-icon">🛠️</div>
+          <p class="maintenance-label">BESTELLSCHLUSS</p>
           <h2>Shop im Wartungsmodus</h2>
           <p>
             Der Online-Shop ist derzeit geschlossen, Bestell-Anfragen sind momentan nicht möglich.
