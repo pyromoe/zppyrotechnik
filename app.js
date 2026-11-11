@@ -143,7 +143,7 @@ const products = [
   { id: "V1", name: "Rebel Yell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "55", price: 79.00, nem: "885g", stock: 3 },
   { id: "V11", name: "Smooth Operator", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "100", price: 229.00, nem: "2000g", stock: 2 },
   { id: "V12", name: "Time to Shine (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "266", price: 279.00, nem: "3496g", stock: 1 },
-  { id: "V13", name: "Okazja (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "128", price: 89.00, nem: "794g", stock: 3 },
+  { id: "V13", name: "Okazja (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "128", price: 89.00, nem: "794g", stock: 2 },
   { id: "V14", name: "Kiss From Hell", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "91", price: 129.00, nem: "1500g", stock: 3 },
   { id: "V15", name: "Wilk (Batch 2023)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 99.00, nem: "907g", stock: 0 },
   { id: "V16", name: "Boom Box XL (ABVERKAUF!)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "218", price: 299.00, nem: "3974g", stock: 0 },
