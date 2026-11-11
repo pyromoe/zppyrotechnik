@@ -35,7 +35,7 @@ const products = [
   //{ id: "C30", name: "Hysteria", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "13", price: 18.99, nem: "287g", stock: 0 },
   { id: "C31", name: "Hustler", category: "Batterien", categoryClass: "F2", manufacturer: "Pyro Specials", shots: "25", price: 39.00, nem: "500g", stock: 2 },
   { id: "C37", name: "Leuchtnebel", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "25", price: 39.00, nem: "500g", stock: 6 },
-  { id: "C39", name: "Hacker Man", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "19", price: 29.00, nem: "380g", stock: 5 },
+  { id: "C39", name: "Hacker Man", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "19", price: 29.00, nem: "380g", stock: 4 },
   { id: "C42", name: "Terremoto 1s (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, nem: "391g", stock: 0 },
   { id: "C43", name: "Golden Spider (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, nem: "500g", stock: 0 },
   { id: "C12", name: "Monster (ABVERKAUF!)", category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, nem: "492g", stock: 0 },
