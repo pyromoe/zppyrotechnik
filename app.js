@@ -56,7 +56,7 @@ const products = [
   { id: "C56", name: "Polarstern (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
   
   // BOMBENROHRE
-  { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 0 },
+  { id: "B1", name: "Thunder Air Bomb (ab Dezember)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: -1 },
   { id: "B2", name: "DumBum Triple", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 11.99, nem: "120g (24g/Stk)", stock: 20 },
   { id: "B3", name: "Gold Grown", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Panta", pieces: "4", price: 8.99, nem: "68,8g (17,2g/Stk)", stock: 0 },
   { id: "B4", name: "XXL Thunder", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Panta", pieces: "4", price: 8.99, nem: "68,8g (17,2g/Stk)", stock: 20 },
