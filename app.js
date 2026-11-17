@@ -45,7 +45,7 @@ const products = [
   { id: "C22", name: "Sakkara (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: -1 },
   { id: "C46", name: "Splendor (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 34.99, nem: "497g", stock: -1 },
   { id: "C58", name: "Celestia (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: -1 },
-  { id: "C47", name: "Dahliencracker (ab November), category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 44.99, nem: "497g", stock: -1 },
+  { id: "C47", name: "Dahliencracker (ab November)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 44.99, nem: "497g", stock: -1 },
   //{ id: "C22", name: "Sakkara", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: 10 },
   //{ id: "C46", name: "Splendor", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 34.99, nem: "497g", stock: 10 },
   //{ id: "C58", name: "Celestia", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: 10 },
