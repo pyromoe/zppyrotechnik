@@ -136,7 +136,7 @@ const products = [
   { id: "L25-B", name: "Neon Hornissen Display (NEU)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "12x4", price: 24.99, nem: "480g (10g/Stk)", stock: 12 },
   { id: "L26", name: "Meteoriten Kal. C (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 1.99, nem: "30g (2,5g/Stk)", stock: -1 },
   { id: "L26-B", name: "Meteoriten Kal. C Display (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12x12", price: 19.99, nem: "360g (2,5g/Stk)", stock: -1 },
-  { id: "L27", name: "Space Ship (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Pulver", pieces: "2", price: 6.99, nem: "-", stock: -1 },
+  { id: "L27", name: "Space Ship (ab November)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Pulver", pieces: "2", price: 6.99, nem: "26g (13g/Stk)", stock: -1 },
 
   // VERBUNDFEUERWERK
   
