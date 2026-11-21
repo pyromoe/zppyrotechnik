@@ -51,8 +51,8 @@ const products = [
   { id: "C52", name: "Goldweide (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: 11 },
   { id: "C53", name: "Gold Cracker (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: 6 },
   { id: "C60", name: "Tigerfunken (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 11 },
-  { id: "C54", name: "Mini Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 7 },
-  { id: "C55", name: "Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: 11 },
+  { id: "C54", name: "Mini Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 20 },
+  { id: "C55", name: "Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: 7 },
   { id: "C56", name: "Polarstern (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: 11 },
   
   // BOMBENROHRE
