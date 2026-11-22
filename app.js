@@ -3,7 +3,7 @@
 // true  = Shop geschlossen, statt der Produkte erscheint ein Hinweis
 // false = Shop normal geöffnet
 // =========================================
-const WARTUNGSMODUS = true;
+const WARTUNGSMODUS = false;
 const WIEDERERÖFFNUNG = "23.11.2026";
 
 const products = [
