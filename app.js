@@ -46,13 +46,13 @@ const products = [
   { id: "C47", name: "Dahliencracker (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 44.99, nem: "497g", stock: 10 },
   { id: "C48", name: "Dynamite (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "26", price: 39.00, nem: "499g", stock: -1 },
   { id: "C49", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 35.00, nem: "480g", stock: -1 },
-  { id: "C50", name: "Kirschblüten (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 11 },
+  { id: "C50", name: "Kirschblüten (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 8 },
   { id: "C51", name: "Wirbelwind (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: 11 },
-  { id: "C52", name: "Goldweide (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: 8 },
-  { id: "C53", name: "Gold Cracker (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: 4 },
+  { id: "C52", name: "Goldweide (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: 7 },
+  { id: "C53", name: "Gold Cracker (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
   { id: "C60", name: "Tigerfunken (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 11 },
   { id: "C54", name: "Mini Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 20 },
-  { id: "C55", name: "Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: 7 },
+  { id: "C55", name: "Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: 6 },
   { id: "C56", name: "Polarstern (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: 34 },
   
   // BOMBENROHRE
@@ -66,8 +66,8 @@ const products = [
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 4 },
   { id: "B10", name: "Big Bang 15G (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 23 },
-  { id: "B11", name: "Space Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: 5 },
-  { id: "B12", name: "Phantom Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: 6 },
+  { id: "B11", name: "Space Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: 4 },
+  { id: "B12", name: "Phantom Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: 4 },
   { id: "B13", name: "Artillery Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 13.99, nem: "100g (25g/Stk)", stock: 11 },
 
   // BÖLLER / KNALLER
@@ -86,7 +86,7 @@ const products = [
   { id: "K11-B", name: "China Böller D (Schinken)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "80", price: 59.00, nem: "-", stock: 3 },
   { id: "K12", name: "Super Böller I (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 3.99, nem: "-", stock: 45 },
   { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.49, nem: "-", stock: 32 },
-  { id: "K14", name: "El Boomba (NEU)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "20", price: 4.99, nem: "60g (3g/Stk)", stock: 6 },
+  { id: "K14", name: "El Boomba (NEU)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "20", price: 4.99, nem: "60g (3g/Stk)", stock: 5 },
   
 
   // RAKETEN
