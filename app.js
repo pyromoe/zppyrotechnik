@@ -3,8 +3,8 @@
 // true  = Shop geschlossen, statt der Produkte erscheint ein Hinweis
 // false = Shop normal geöffnet
 // =========================================
-const WARTUNGSMODUS = false;
-const WIEDERERÖFFNUNG = "15.01.2027";
+const WARTUNGSMODUS = true;
+const WIEDERERÖFFNUNG = "23.11.2026";
 
 const products = [
   // FEUERWERKSBATTERIEN
