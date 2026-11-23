@@ -48,7 +48,7 @@ const products = [
   { id: "C49", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 35.00, nem: "480g", stock: -1 },
   { id: "C50", name: "Kirschblüten (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 7 },
   { id: "C51", name: "Wirbelwind (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: 11 },
-  { id: "C52", name: "Goldweide (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: 11 },
+  { id: "C52", name: "Goldweide (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: 6 },
   { id: "C53", name: "Gold Cracker (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: 11 },
   { id: "C60", name: "Tigerfunken (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 11 },
   { id: "C54", name: "Mini Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 20 },
