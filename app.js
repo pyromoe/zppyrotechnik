@@ -843,9 +843,71 @@ function showMaintenance() {
   document.querySelectorAll('nav a[href="#anfrage"]').forEach(link => link.remove());
 }
 
+// =========================================
+// WARENKORB ALS SEITENLEISTE (klappt rechts auf)
+// Verschiebt Warenkorb + Bestellformular in eine Leiste am rechten Rand.
+// Alle Links auf "#anfrage" (Warenkorb-Knopf oben, Balken unten) öffnen sie.
+// =========================================
+function setupCartDrawer() {
+  const section = document.getElementById("anfrage");
+  const layout = section ? section.querySelector(".order-layout") : null;
+  if (!section || !layout) return;
+
+  const overlay = document.createElement("div");
+  overlay.className = "cart-drawer-overlay";
+
+  const drawer = document.createElement("aside");
+  drawer.className = "cart-drawer";
+  drawer.setAttribute("aria-label", "Warenkorb");
+  drawer.setAttribute("aria-hidden", "true");
+  drawer.innerHTML = `
+    <div class="cart-drawer-head">
+      <span>Deine Auswahl</span>
+      <button type="button" class="cart-drawer-close" aria-label="Warenkorb schließen">×</button>
+    </div>
+    <div class="cart-drawer-body"></div>
+  `;
+
+  drawer.querySelector(".cart-drawer-body").appendChild(layout);
+  document.body.append(overlay, drawer);
+  section.style.display = "none";
+
+  const openCart = () => {
+    document.body.classList.add("cart-open");
+    drawer.setAttribute("aria-hidden", "false");
+  };
+
+  const closeCart = () => {
+    document.body.classList.remove("cart-open");
+    drawer.setAttribute("aria-hidden", "true");
+  };
+
+  document.querySelectorAll('a[href="#anfrage"]').forEach(link => {
+    link.addEventListener("click", event => {
+      event.preventDefault();
+      openCart();
+    });
+  });
+
+  overlay.addEventListener("click", closeCart);
+  drawer.querySelector(".cart-drawer-close").addEventListener("click", closeCart);
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeCart();
+  });
+
+  // Kommt man von einer anderen Seite über "Warenkorb" (index.html#anfrage), direkt öffnen
+  if (location.hash === "#anfrage") {
+    openCart();
+    history.replaceState(null, "", location.pathname + location.search);
+  }
+
+  window.openCart = openCart;
+}
+
 if (WARTUNGSMODUS) {
   showMaintenance();
 } else {
+  setupCartDrawer();
   renderProducts();
   renderCart();
   updateCartCount();
