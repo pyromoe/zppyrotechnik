@@ -46,14 +46,14 @@ const products = [
   { id: "C47", name: "Dahliencracker (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 44.99, nem: "497g", stock: 10 },
   { id: "C48", name: "Dynamite (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "26", price: 39.00, nem: "499g", stock: -1 },
   { id: "C49", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 35.00, nem: "480g", stock: -1 },
-  { id: "C50", name: "Kirschblüten (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 7 },
-  { id: "C51", name: "Wirbelwind (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: 11 },
-  { id: "C52", name: "Goldweide (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: 6 },
-  { id: "C53", name: "Gold Cracker (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: 11 },
-  { id: "C60", name: "Tigerfunken (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: 11 },
-  { id: "C54", name: "Mini Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: 20 },
-  { id: "C55", name: "Blitzeria (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: 11 },
-  { id: "C56", name: "Polarstern (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: 34 },
+  { id: "C50", name: "Kirschblüten (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: -1 },
+  { id: "C51", name: "Wirbelwind (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
+  { id: "C52", name: "Goldweide (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "180g", stock: -1 },
+  { id: "C53", name: "Gold Cracker (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "156g", stock: -1 },
+  { id: "C60", name: "Tigerfunken (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "12", price: 13.99, nem: "192g", stock: -1 },
+  { id: "C54", name: "Mini Blitzeria (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "49g", stock: -1 },
+  { id: "C55", name: "Blitzeria (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "16", price: 10.99, nem: "128g", stock: -1 },
+  { id: "C56", name: "Polarstern (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Pulver", shots: "7", price: 4.99, nem: "75g", stock: -1 },
   
   // BOMBENROHRE
   { id: "B1", name: "Thunder Air Bomb", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Piromax", pieces: "8", price: 6.99, nem: "34,4g (4,3g/Stk)", stock: 64 },
@@ -66,9 +66,9 @@ const products = [
   { id: "B8", name: "Vortex Saluts", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "63g (6,3g/Stk)", stock: 0 },
   { id: "B9", name: "Carcasa", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pyrocentury", pieces: "4", price: 9.99, nem: "70g (17,5g/Stk)", stock: 4 },
   { id: "B10", name: "Big Bang 15G (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Orion", pieces: "4", price: 9.99, nem: "60g (15g/Stk)", stock: 23 },
-  { id: "B11", name: "Space Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: 11 },
-  { id: "B12", name: "Phantom Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: 11 },
-  { id: "B13", name: "Artillery Shots (NEU)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 13.99, nem: "100g (25g/Stk)", stock: 11 },
+  { id: "B11", name: "Space Shots (NEU) (ab Dezember)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "5", price: 11.99, nem: "95g (19g/Stk)", stock: -1 },
+  { id: "B12", name: "Phantom Shots (NEU) (ab Dezember)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "3", price: 6.99, nem: "39g (13g/Stk)", stock: -1 },
+  { id: "B13", name: "Artillery Shots (NEU) (ab Dezember)", category: "Bombenrohre", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 13.99, nem: "100g (25g/Stk)", stock: -1 },
 
   // BÖLLER / KNALLER
   { id: "K1", name: "Blauer Berber", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Funke", pieces: "20", price: 5.99, nem: "30g (1,5g/Stk)", stock: 35 },
@@ -86,7 +86,7 @@ const products = [
   { id: "K11-B", name: "China Böller D (Schinken)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "80", price: 59.00, nem: "-", stock: 3 },
   { id: "K12", name: "Super Böller I (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 3.99, nem: "-", stock: 45 },
   { id: "K13", name: "Super Böller II (Einzelpackung)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "4", price: 4.49, nem: "-", stock: 32 },
-  { id: "K14", name: "El Boomba (NEU)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "20", price: 4.99, nem: "60g (3g/Stk)", stock: 4 },
+  { id: "K14", name: "El Boomba (NEU) (ab Dezember)", category: "Böller/Knaller", categoryClass: "F2", manufacturer: "Pulver", pieces: "20", price: 4.99, nem: "60g (3g/Stk)", stock: -1 },
   
 
   // RAKETEN
@@ -105,8 +105,8 @@ const products = [
   { id: "R15", name: "Fun 4 All Pack", category: "Raketen", categoryClass: "F2", manufacturer: "Lesli", pieces: "122", price: 15.99, nem: "117g", stock: 20 },
   { id: "R17", name: "Ariane 38", category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "6", price: 18.99, nem: "120g (20g/Stk)", stock: 19 },
   { id: "R16", name: "Silberblitz Raketen (NEU)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "10", price: 11.99, nem: "60g (6g/Stk)", stock: 30 },
-  { id: "R18", name: "Top 10 (NEU)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: 11 },
-  { id: "R19", name: "Kosmos Sredni (NEU)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke (Iskra)", pieces: "12", price: 15.99, nem: "190g (16g/Stk)", stock: 11 },
+  { id: "R18", name: "Top 10 (NEU) (ab Dezember)", category: "Raketen", categoryClass: "F2", manufacturer: "Pulver", pieces: "10", price: 29.00, nem: "200g (20g/Stk)", stock: -1 },
+  { id: "R19", name: "Kosmos Sredni (NEU) (ab Dezember)", category: "Raketen", categoryClass: "F2", manufacturer: "Funke (Iskra)", pieces: "12", price: 15.99, nem: "190g (16g/Stk)", stock: -1 },
   
   // LEUCHTFEUERWERK
   { id: "L1", name: "Super Etna", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Panta", pieces: "6", price: 5.99, nem: "61g (10,2g/Stk)", stock: 24 },
@@ -137,7 +137,7 @@ const products = [
   { id: "L25-B", name: "Neon Hornissen Display (NEU)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", pieces: "12x4", price: 24.99, nem: "480g (10g/Stk)", stock: 12 },
   { id: "L26", name: "Meteoriten Kal. C (NEU)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12", price: 1.99, nem: "30g (2,5g/Stk)", stock: 100 },
   { id: "L26-B", name: "Meteoriten Kal. C Display (NEU)", category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke", pieces: "12x12", price: 19.99, nem: "360g (2,5g/Stk)", stock: 10 },
-  { id: "L27", name: "Space Ship (NEU)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Pulver", pieces: "2", price: 6.99, nem: "26g (13g/Stk)", stock: 11 },
+  { id: "L27", name: "Space Ship (NEU) (ab Dezember)", category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Pulver", pieces: "2", price: 6.99, nem: "26g (13g/Stk)", stock: -1 },
 
   // VERBUNDFEUERWERK
   
@@ -152,7 +152,7 @@ const products = [
   { id: "V18", name: "Coconut Grove (NEU)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 2 },
   { id: "V19", name: "Reborn Phoenix (EXKLUSIV AM STAND)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "ProXplosion", shots: "99", price: 189.00, nem: "1785g", stock: -1 },
   { id: "V20", name: "El Toro (NEU)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Lesli", shots: "101", price: 129.00, nem: "1974g", stock: 11 },
-  { id: "V21", name: "Big in Japan (NEU)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "76", price: 89.00, nem: "988g", stock: 11 },
+  { id: "V21", name: "Big in Japan (NEU) (ab Dezember)", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "76", price: 89.00, nem: "988g", stock: -1 },
   { id: "V2", name: "Szakal", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "99", price: 79.00, nem: "907g", stock: 0 },
   { id: "V3", name: "Minerva Reconquista", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Argento", shots: "144", price: 149.00, nem: "1987g", stock: 0 },
   { id: "V4", name: "King Of Bling", category: "Verbundfeuerwerk", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "100", price: 99.00, nem: "1258g", stock: 0 },
@@ -167,7 +167,7 @@ const products = [
 const BADGE_RULES = [
   { match: /ab november/i, label: "ab 22.11.", cls: "badge-soon" },
   { match: /ab oktober/i, label: "Ab Oktober", cls: "badge-soon" },
-  { match: /ab dezember/i, label: "Ab Dezember", cls: "badge-soon" },
+  { match: /ab dezember/i, label: "Ab 5.12.", cls: "badge-soon" },
   { match: /lieferdatum offen/i, label: "Lieferdatum offen", cls: "badge-soon" },
   { match: /abverkauf/i, label: "Abverkauf", cls: "badge-sale" },
   { match: /exklusiv am stand/i, label: "Exklusiv am Stand", cls: "badge-exclusive" },
