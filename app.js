@@ -42,7 +42,7 @@ const products = [
   { id: "C21", name: "Zaplon", category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, nem: "494g", stock: 0 },
   { id: "C22", name: "Sakkara", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, nem: "500g", stock: 7 },
   { id: "C46", name: "Splendor (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 34.99, nem: "497g", stock: 10 },
-  { id: "C58", name: "Celestia (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: 9 },
+  { id: "C58", name: "Celestia (NEU) (ab Dezember)", category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "36", price: 39.00, nem: "493g", stock: -1 },
   { id: "C47", name: "Dahliencracker (NEU)", category: "Batterien", categoryClass: "F2", manufacturer: "Funke", shots: "36", price: 44.99, nem: "497g", stock: 10 },
   { id: "C48", name: "Dynamite (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "26", price: 39.00, nem: "499g", stock: -1 },
   { id: "C49", name: "Nitro (EXKLUSIV AM STAND)", category: "Batterien", categoryClass: "F2", manufacturer: "ProXplosion", shots: "25", price: 35.00, nem: "480g", stock: -1 },
