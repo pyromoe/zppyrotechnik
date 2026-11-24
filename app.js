@@ -669,6 +669,13 @@ if (orderForm) {
     const legalElement =
       document.getElementById("legal");
 
+    const pickupElement =
+      document.getElementById("pickup");
+
+    const pickup = pickupElement
+      ? pickupElement.value
+      : "";
+
     const name = nameElement
       ? nameElement.value.trim()
       : "";
@@ -713,7 +720,7 @@ ich möchte folgende Produkte anfragen:
       total += itemTotal;
 
       message +=
-        `- ${splitName(product.name).name} (${product.id}) × ${item.quantity} = ${itemTotal.toFixed(2).replace(".", ",")} €\n`;
+        `- ${splitName(product.name).name} (${product.id}): ${item.quantity}x ${formatPrice(product.price)} = ${formatPrice(itemTotal)}\n`;
     });
 
     message += `
@@ -721,6 +728,7 @@ Gesamtwert: ${total.toFixed(2).replace(".", ",")} €
 
 Name: ${name}
 Telefon: ${phone}
+Abholtermin: ${pickup || "noch offen"}
 `;
 
     if (note) {
