@@ -320,7 +320,7 @@ function renderProducts() {
     }
 
     if (product.nem && product.nem !== "-") {
-      details += `<span>NEM ${product.nem.replace("/Stk", "")}</span>`;
+      details += `<span>NEM ${product.nem}</span>`;
     }
 
     // Dynamische Kategorie F1/F2 aus dem jeweiligen Produkt

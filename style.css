@@ -1381,11 +1381,12 @@ footer a:hover {
    DETAIL-FELDER KOMPAKT (alles in einer Zeile)
    ========================================= */
 
-.product-details { gap: 4px; }
+.product-details { gap: 3px; }
 
 .product-details span {
-  padding: 4px 7px;
+  padding: 4px 6px;
   font-size: 11px;
+  letter-spacing: -0.2px;
   border-radius: 6px;
   white-space: nowrap;
 }
