@@ -1375,3 +1375,37 @@ footer a:hover {
   font-size: clamp(34px, 7vw, 64px);
   overflow-wrap: anywhere;
 }
+
+
+/* =========================================
+   DETAIL-FELDER KOMPAKT (alles in einer Zeile)
+   ========================================= */
+
+.product-details { gap: 4px; }
+
+.product-details span {
+  padding: 4px 7px;
+  font-size: 11px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   STATT-PREIS
+   ========================================= */
+
+.product-price-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.product-old-price {
+  color: #8a8a8a;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: line-through;
+  text-decoration-color: #e3262b;
+  text-decoration-thickness: 2px;
+}
