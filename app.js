@@ -92,7 +92,7 @@ const products = [
   // RAKETEN
   { id: "R1", name: "Shell Show", stock: 23, category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "6", price: 39.00, oldPrice: 49.00, nem: "450g (75g/Stk)" },
   { id: "R2", name: "Mach One (ABVERKAUF!)", stock: 0, category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "10", price: 28.99, oldPrice: 34.00, nem: "200g (20g/Stk)" },
-  { id: "R3", name: "Signature Range Rocket", stock: 5, category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, oldPrice: 39.00, nem: "375g (75g/Stk)" },
+  { id: "R3", name: "Signature Range Rocket", stock: 4, category: "Raketen", categoryClass: "F2", manufacturer: "Klasek", pieces: "5", price: 24.99, oldPrice: 39.00, nem: "375g (75g/Stk)" },
   { id: "R6", name: "Baby-Raketen Titansalut", stock: 38, category: "Raketen", categoryClass: "F2", manufacturer: "Funke", pieces: "50", price: 7.99, oldPrice: 9.00, nem: "25g (0,5g/Stk)" },
   { id: "R7", name: "Ariane 50", stock: 21, category: "Raketen", categoryClass: "F2", manufacturer: "Riakeo", pieces: "5", price: 29.00, oldPrice: 39.00, nem: "250g (50g/Stk)" },
   { id: "R8", name: "No Limits", stock: 17, category: "Raketen", categoryClass: "F2", manufacturer: "Piromax", pieces: "4", price: 23.99, oldPrice: 29.00, nem: "176g (44g/Stk)" },
