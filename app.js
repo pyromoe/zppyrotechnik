@@ -119,7 +119,7 @@ const products = [
   { id: "L10", name: "Geysir Kal. C", stock: 5, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "3", price: 6.99, oldPrice: 9.00, nem: "87g (29g/Stk)" },
   { id: "L11", name: "Römische Lichter 30er", stock: 9, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "PyroAustria", pieces: "12", price: 8.99, oldPrice: 12.00, nem: "90g (7,5g/Stk)" },
   { id: "L13", name: "Neon Hummeln", stock: 74, category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke (Albert)", pieces: "6", price: 1.99, oldPrice: 2.50, nem: "22,5g (3,7g/Stk)" },
-  { id: "L13-B", name: "Neon Hummeln Display", stock: 4, category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke (Albert)", pieces: "12x6", price: 19.00, oldPrice: 23.00, nem: "259g (3,7g/Stk)" },
+  { id: "L13-B", name: "Neon Hummeln Display", stock: 2, category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Funke (Albert)", pieces: "12x6", price: 19.00, oldPrice: 23.00, nem: "259g (3,7g/Stk)" },
   { id: "L14", name: "Vesuvio Fontänenparade (ABVERKAUF!)", stock: 28, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Blackboxx", pieces: "3", price: 3.99, oldPrice: 5.00, nem: "30g (10g/Stk)" },
   { id: "L15", name: "Dynamite Kids (Jugendsortiment)", stock: 8, category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Lesli", pieces: "186", price: 8.99, oldPrice: 14.00, nem: "42g" },
   { id: "L16", name: "Krazy Panda", stock: 32, category: "Leuchtfeuerwerk", categoryClass: "F1", manufacturer: "Lesli", pieces: "78", price: 3.99, oldPrice: 5.00, nem: "17g" },
