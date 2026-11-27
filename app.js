@@ -110,8 +110,8 @@ const products = [
   
   // LEUCHTFEUERWERK
   { id: "L1", name: "Super Etna", stock: 24, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Panta", pieces: "6", price: 5.99, oldPrice: 7.00, nem: "61g (10,2g/Stk)" },
-  { id: "L2", name: "Funkenball A Silber", stock: 78, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "6", price: 1.99, oldPrice: 2.50, nem: "12g (2g/Stk)" },
-  { id: "L2-B", name: "Funkenball A Silber Display", stock: 4, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "12x6", price: 19.00, oldPrice: 23.00, nem: "144g (2g/Stk)" },
+  { id: "L2", name: "Funkenball A Silber", stock: 9, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "6", price: 1.99, oldPrice: 2.50, nem: "12g (2g/Stk)" },
+  { id: "L2-B", name: "Funkenball A Silber Display", stock: 0, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "12x6", price: 19.00, oldPrice: 23.00, nem: "144g (2g/Stk)" },
   { id: "L3", name: "Sonnenvögel groß (ABVERKAUF!)", stock: 17, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Funke", pieces: "6", price: 11.99, oldPrice: 14.00, nem: "78g (12g/Stk)" },
   { id: "L4", name: "5'' Assorted Fountain", stock: 8, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Panta", pieces: "6", price: 5.99, oldPrice: 7.00, nem: "78g (12g/Stk)" },
   { id: "L6", name: "No Limits Fontäne", stock: 30, category: "Leuchtfeuerwerk", categoryClass: "F2", manufacturer: "Piromax", pieces: "1", price: 8.99, oldPrice: 12.00, nem: "180g" },
