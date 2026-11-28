@@ -37,7 +37,7 @@ const products = [
   { id: "C37", name: "Leuchtnebel", stock: 5, category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "25", price: 39.00, oldPrice: 49.00, nem: "500g" },
   { id: "C39", name: "Hacker Man", stock: 2, category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Albert)", shots: "19", price: 29.00, oldPrice: 34.00, nem: "380g" },
   { id: "C42", name: "Terremoto 1s (ABVERKAUF!)", stock: 0, category: "Batterien", categoryClass: "F2", manufacturer: "El Gato", shots: "50", price: 39.00, oldPrice: 49.00, nem: "391g" },
-  { id: "C43", name: "Golden Spider (ABVERKAUF!)", stock: 1, category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, oldPrice: 59.00, nem: "500g" },
+  { id: "C43", name: "Golden Spider (ABVERKAUF!)", stock: 0, category: "Batterien", categoryClass: "F2", manufacturer: "Pyrocentury", shots: "25", price: 49.00, oldPrice: 59.00, nem: "500g" },
   { id: "C12", name: "Monster (ABVERKAUF!)", stock: 0, category: "Batterien", categoryClass: "F2", manufacturer: "Riakeo", shots: "24", price: 49.00, oldPrice: 59.00, nem: "492g" },
   { id: "C21", name: "Zaplon", stock: 0, category: "Batterien", categoryClass: "F2", manufacturer: "Funke (Iskra)", shots: "33", price: 39.00, oldPrice: 49.00, nem: "494g" },
   { id: "C22", name: "Sakkara", stock: 7, category: "Batterien", categoryClass: "F2", manufacturer: "Argento", shots: "40", price: 49.00, oldPrice: 59.00, nem: "500g" },
